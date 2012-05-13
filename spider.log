@@ -1,0 +1,1318 @@
+2012-03-17 23:50:24 [INFO] Schedule job started.
+2012-03-17 23:50:35 [INFO] Succeeded adding contest [2][SRM 537].
+2012-03-17 23:50:36 [INFO] Succeeded adding contest [33][CSU Monthly 2012 Mar.（Semilive）].
+2012-03-17 23:50:37 [INFO] Succeeded adding contest [40][2012 Spring Weekly Contest III -- Hosted by 陈竞 林巍伟].
+2012-03-17 23:50:38 [INFO] Succeeded adding contest [44][东北多校新生练习赛3-SITE NEU].
+2012-03-17 23:50:39 [INFO] Succeeded adding contest [16][VK Cup 2012 Wild-card Round 1].
+2012-03-17 23:50:39 [INFO] Succeeded adding contest [37][March Cook-Off 2012].
+2012-03-17 23:50:40 [INFO] Succeeded adding contest [3][SRM 538].
+2012-03-17 23:50:40 [INFO] Succeeded adding contest [39][HDU-ACM 2012省赛集训队选拔排名赛（1）].
+2012-03-17 23:50:41 [INFO] Succeeded adding contest [17][VK Cup 2012 Round 2].
+2012-03-17 23:50:41 [INFO] Succeeded adding contest [38][HDU-ACM 2012省赛集训队选拔排名赛（2）].
+2012-03-17 23:50:42 [INFO] Succeeded adding contest [4][SRM 539].
+2012-03-17 23:50:42 [INFO] Succeeded adding contest [45][计算机学院大学生程序设计竞赛（2012’04）(组队赛)].
+2012-03-17 23:50:43 [INFO] Succeeded adding contest [18][VK Cup 2012 Round 3].
+2012-03-17 23:50:43 [INFO] Succeeded adding contest [5][SRM 540].
+2012-03-17 23:50:44 [INFO] Succeeded adding contest [6][SRM 541].
+2012-03-17 23:50:44 [INFO] Succeeded adding contest [8][World Finals Warmup II].
+2012-03-17 23:50:44 [INFO] Schedule job finished.
+2012-03-18 00:00:02 [INFO] Schedule job started.
+2012-03-18 00:00:13 [INFO] Schedule job finished.
+2012-03-18 00:05:01 [INFO] Schedule job started.
+2012-03-18 00:05:14 [INFO] Schedule job finished.
+2012-03-18 04:00:02 [INFO] Schedule job started.
+2012-03-18 04:00:23 [INFO] Schedule job finished.
+2012-03-18 04:05:01 [INFO] Schedule job started.
+2012-03-18 04:05:12 [INFO] Schedule job finished.
+2012-03-18 08:00:01 [INFO] Schedule job started.
+2012-03-18 08:00:02 [INFO] Schedule job finished.
+2012-03-18 08:05:02 [INFO] Schedule job started.
+2012-03-18 08:05:03 [INFO] Schedule job finished.
+2012-03-18 12:00:02 [INFO] Schedule job started.
+2012-03-18 12:00:02 [INFO] Schedule job finished.
+2012-03-18 12:05:02 [INFO] Schedule job started.
+2012-03-18 12:05:03 [INFO] Schedule job finished.
+2012-03-18 16:00:02 [INFO] Schedule job started.
+2012-03-18 16:00:03 [INFO] Schedule job finished.
+2012-03-18 16:05:01 [INFO] Schedule job started.
+2012-03-18 16:05:03 [INFO] Schedule job finished.
+2012-03-18 20:00:01 [INFO] Schedule job started.
+2012-03-18 20:00:03 [INFO] Succeeded adding contest [46][CSU Monthly 2012 Mar.（Semilive）].
+2012-03-18 20:00:03 [INFO] Schedule job finished.
+2012-03-18 20:05:02 [INFO] Schedule job started.
+2012-03-18 20:05:03 [INFO] Schedule job finished.
+2012-03-19 00:05:02 [INFO] Schedule job started.
+2012-03-19 00:05:53 [INFO] Succeeded adding contest [47][计算机学院大学生程序设计竞赛（2012’04）(校内组队赛)].
+2012-03-19 00:05:53 [INFO] Schedule job finished.
+2012-03-19 00:00:06 [INFO] Schedule job started.
+Traceback (most recent call last):
+  File "./bug_contest.py", line 157, in <module>
+    proceed(itemlst)
+  File "./bug_contest.py", line 145, in proceed
+    None)
+  File "./bug_contest.py", line 105, in insert_single_event
+    new_event = self.cal_client.InsertEvent(event, _curi)
+  File "/usr/lib/python2.6/site-packages/gdata/calendar/client.py", line 385, in insert_event
+    auth_token=auth_token, **kwargs)
+  File "/usr/lib/python2.6/site-packages/gdata/client.py", line 690, in post
+    desired_class=desired_class, **kwargs)
+  File "/usr/lib/python2.6/site-packages/gdata/client.py", line 267, in request
+    uri=uri, auth_token=auth_token, http_request=http_request, **kwargs)
+  File "/usr/lib/python2.6/site-packages/atom/client.py", line 119, in request
+    return self.http_client.request(http_request)
+  File "/usr/lib/python2.6/site-packages/atom/http_core.py", line 420, in request
+    http_request.headers, http_request._body_parts)
+  File "/usr/lib/python2.6/site-packages/atom/http_core.py", line 497, in _http_request
+    return connection.getresponse()
+  File "/usr/lib64/python2.6/httplib.py", line 986, in getresponse
+    response.begin()
+  File "/usr/lib64/python2.6/httplib.py", line 391, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python2.6/httplib.py", line 349, in _read_status
+    line = self.fp.readline()
+  File "/usr/lib64/python2.6/socket.py", line 397, in readline
+    data = recv(1)
+socket.error: [Errno 110] Connection timed out
+2012-03-19 04:00:02 [INFO] Schedule job started.
+2012-03-19 04:00:56 [INFO] Succeeded adding contest [48][Codeforces Round #113 (Div. 2)].
+2012-03-19 04:01:32 [INFO] Succeeded adding contest [49][Codeforces Round #114].
+2012-03-19 04:01:32 [INFO] Schedule job finished.
+2012-03-19 04:05:02 [INFO] Schedule job started.
+2012-03-19 04:05:38 [INFO] Schedule job finished.
+2012-03-19 08:00:01 [INFO] Schedule job started.
+2012-03-19 08:00:02 [INFO] Schedule job finished.
+2012-03-19 08:05:02 [INFO] Schedule job started.
+2012-03-19 08:05:03 [INFO] Schedule job finished.
+2012-03-19 12:00:02 [INFO] Schedule job started.
+2012-03-19 12:00:03 [INFO] Succeeded adding contest [50][CodeAction Beta Game #03 ( with Challenge )].
+2012-03-19 12:00:03 [INFO] Schedule job finished.
+2012-03-19 12:05:01 [INFO] Schedule job started.
+2012-03-19 12:05:02 [INFO] Schedule job finished.
+2012-03-19 16:00:01 [INFO] Schedule job started.
+2012-03-19 16:00:02 [INFO] Schedule job finished.
+2012-03-19 16:05:01 [INFO] Schedule job started.
+2012-03-19 16:05:02 [INFO] Schedule job finished.
+2012-03-19 20:00:10 [INFO] Schedule job started.
+2012-03-19 20:00:11 [INFO] Schedule job finished.
+2012-03-19 20:05:01 [INFO] Schedule job started.
+2012-03-19 20:05:02 [INFO] Schedule job finished.
+2012-03-20 00:00:01 [INFO] Schedule job started.
+2012-03-20 00:00:02 [INFO] Schedule job finished.
+2012-03-20 00:05:02 [INFO] Schedule job started.
+2012-03-20 00:05:03 [INFO] Schedule job finished.
+2012-03-20 04:00:01 [INFO] Schedule job started.
+2012-03-20 04:00:17 [INFO] Schedule job finished.
+2012-03-20 04:05:02 [INFO] Schedule job started.
+2012-03-20 04:05:03 [INFO] Schedule job finished.
+2012-03-20 08:00:02 [INFO] Schedule job started.
+Traceback (most recent call last):
+  File "./bug_contest.py", line 156, in <module>
+    itemlst = grab_data()
+  File "./bug_contest.py", line 115, in grab_data
+    sock = urllib.urlopen(_datsrc)
+  File "/usr/lib64/python2.6/urllib.py", line 86, in urlopen
+    return opener.open(url)
+  File "/usr/lib64/python2.6/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python2.6/urllib.py", line 344, in open_http
+    h.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 904, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 776, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 735, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 716, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 500, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+IOError: [Errno socket error] [Errno -2] Name or service not known
+2012-03-20 08:05:02 [INFO] Schedule job started.
+2012-03-20 08:05:07 [INFO] Schedule job finished.
+2012-03-20 12:00:02 [INFO] Schedule job started.
+2012-03-20 12:00:03 [INFO] Succeeded adding contest [51][新生PK赛2].
+2012-03-20 12:00:03 [INFO] Schedule job finished.
+2012-03-20 12:05:01 [INFO] Schedule job started.
+2012-03-20 12:05:02 [INFO] Schedule job finished.
+2012-03-20 16:00:01 [INFO] Schedule job started.
+2012-03-20 16:00:03 [INFO] Succeeded adding contest [53][厦门大学第九届程序设计竞赛 Warm Up].
+2012-03-20 16:00:04 [INFO] Succeeded adding contest [52][“网宿科技杯”厦门大学第九届程序设计竞赛 网络预赛（1）].
+2012-03-20 16:00:04 [INFO] Schedule job finished.
+2012-03-20 16:05:02 [INFO] Schedule job started.
+2012-03-20 16:05:05 [INFO] Schedule job finished.
+2012-03-20 20:00:02 [INFO] Schedule job started.
+2012-03-20 20:00:05 [INFO] Succeeded adding contest [54][新生PK赛2].
+2012-03-20 20:00:06 [INFO] Succeeded adding contest [55][Adhyayan '12].
+2012-03-20 20:00:07 [INFO] Succeeded adding contest [56][Adhyayan 2012].
+2012-03-20 20:00:07 [INFO] Schedule job finished.
+2012-03-20 20:05:01 [INFO] Schedule job started.
+2012-03-20 20:05:02 [INFO] Schedule job finished.
+2012-03-21 00:00:02 [INFO] Schedule job started.
+2012-03-21 00:00:08 [INFO] Schedule job finished.
+2012-03-21 00:05:01 [INFO] Schedule job started.
+2012-03-21 00:05:06 [INFO] Schedule job finished.
+2012-03-21 04:00:02 [INFO] Schedule job started.
+2012-03-21 04:00:12 [INFO] Schedule job finished.
+2012-03-21 04:05:01 [INFO] Schedule job started.
+2012-03-21 04:05:02 [INFO] Schedule job finished.
+2012-03-21 08:00:03 [INFO] Schedule job started.
+2012-03-21 08:00:13 [INFO] Schedule job finished.
+2012-03-21 08:05:01 [INFO] Schedule job started.
+2012-03-21 08:05:02 [INFO] Schedule job finished.
+2012-03-21 12:00:02 [INFO] Schedule job started.
+Traceback (most recent call last):
+  File "./bug_contest.py", line 156, in <module>
+    itemlst = grab_data()
+  File "./bug_contest.py", line 115, in grab_data
+    sock = urllib.urlopen(_datsrc)
+  File "/usr/lib64/python2.6/urllib.py", line 86, in urlopen
+    return opener.open(url)
+  File "/usr/lib64/python2.6/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python2.6/urllib.py", line 344, in open_http
+    h.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 904, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 776, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 735, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 716, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 500, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+IOError: [Errno socket error] [Errno -2] Name or service not known
+2012-03-21 12:05:01 [INFO] Schedule job started.
+Traceback (most recent call last):
+  File "./bug_contest.py", line 156, in <module>
+    itemlst = grab_data()
+  File "./bug_contest.py", line 115, in grab_data
+    sock = urllib.urlopen(_datsrc)
+  File "/usr/lib64/python2.6/urllib.py", line 86, in urlopen
+    return opener.open(url)
+  File "/usr/lib64/python2.6/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python2.6/urllib.py", line 344, in open_http
+    h.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 904, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 776, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 735, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 716, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 500, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+IOError: [Errno socket error] [Errno -2] Name or service not known
+2012-03-21 16:00:02 [INFO] Schedule job started.
+2012-03-21 16:00:33 [INFO] Succeeded adding contest [57][湖南师范大学第三届大学生计算机程序设计竞赛（网络同步赛）].
+2012-03-21 16:00:33 [INFO] Schedule job finished.
+2012-03-21 16:05:01 [INFO] Schedule job started.
+2012-03-21 16:05:02 [INFO] Schedule job finished.
+2012-03-21 20:00:01 [INFO] Schedule job started.
+Traceback (most recent call last):
+  File "./bug_contest.py", line 156, in <module>
+    itemlst = grab_data()
+  File "./bug_contest.py", line 115, in grab_data
+    sock = urllib.urlopen(_datsrc)
+  File "/usr/lib64/python2.6/urllib.py", line 86, in urlopen
+    return opener.open(url)
+  File "/usr/lib64/python2.6/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python2.6/urllib.py", line 344, in open_http
+    h.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 904, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 776, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 735, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 716, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 500, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+IOError: [Errno socket error] [Errno -2] Name or service not known
+2012-03-21 20:05:02 [INFO] Schedule job started.
+Traceback (most recent call last):
+  File "./bug_contest.py", line 156, in <module>
+    itemlst = grab_data()
+  File "./bug_contest.py", line 115, in grab_data
+    sock = urllib.urlopen(_datsrc)
+  File "/usr/lib64/python2.6/urllib.py", line 86, in urlopen
+    return opener.open(url)
+  File "/usr/lib64/python2.6/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python2.6/urllib.py", line 344, in open_http
+    h.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 904, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 776, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 735, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 716, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 500, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+IOError: [Errno socket error] [Errno -2] Name or service not known
+2012-03-22 00:00:01 [INFO] Schedule job started.
+Traceback (most recent call last):
+  File "./bug_contest.py", line 156, in <module>
+    itemlst = grab_data()
+  File "./bug_contest.py", line 115, in grab_data
+    sock = urllib.urlopen(_datsrc)
+  File "/usr/lib64/python2.6/urllib.py", line 86, in urlopen
+    return opener.open(url)
+  File "/usr/lib64/python2.6/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python2.6/urllib.py", line 344, in open_http
+    h.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 904, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 776, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 735, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 716, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 500, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+IOError: [Errno socket error] [Errno -2] Name or service not known
+2012-03-22 00:05:02 [INFO] Schedule job started.
+2012-03-22 00:05:04 [INFO] Succeeded adding contest [59][FOJ有奖月赛-2012年3月].
+2012-03-22 00:05:04 [INFO] Schedule job finished.
+2012-03-22 04:00:01 [INFO] Schedule job started.
+2012-03-22 04:00:04 [INFO] Succeeded adding contest [60][Alberta Collegiate Programming Contest 2011].
+2012-03-22 04:00:04 [INFO] Schedule job finished.
+2012-03-22 04:05:02 [INFO] Schedule job started.
+2012-03-22 04:05:22 [INFO] Schedule job finished.
+2012-03-22 08:00:01 [INFO] Schedule job started.
+2012-03-22 08:00:22 [INFO] Schedule job finished.
+2012-03-22 08:05:02 [INFO] Schedule job started.
+2012-03-22 08:05:02 [INFO] Schedule job finished.
+2012-03-22 12:00:02 [INFO] Schedule job started.
+Traceback (most recent call last):
+  File "./bug_contest.py", line 156, in <module>
+    itemlst = grab_data()
+  File "./bug_contest.py", line 115, in grab_data
+    sock = urllib.urlopen(_datsrc)
+  File "/usr/lib64/python2.6/urllib.py", line 86, in urlopen
+    return opener.open(url)
+  File "/usr/lib64/python2.6/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python2.6/urllib.py", line 344, in open_http
+    h.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 904, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 776, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 735, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 716, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 500, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+IOError: [Errno socket error] [Errno -2] Name or service not known
+2012-03-22 12:05:01 [INFO] Schedule job started.
+2012-03-22 12:05:31 [INFO] Schedule job finished.
+2012-03-22 16:00:02 [INFO] Schedule job started.
+2012-03-22 16:00:28 [INFO] Succeeded adding contest [62][厦门大学软件学院程序设计大赛预赛].
+2012-03-22 16:00:29 [INFO] Succeeded adding contest [61][计算机学院大学生程序设计竞赛（2012’04）(本校组队现场赛)].
+2012-03-22 16:00:29 [INFO] Schedule job finished.
+2012-03-22 16:05:02 [INFO] Schedule job started.
+2012-03-22 16:05:02 [INFO] Schedule job finished.
+2012-03-22 20:00:01 [INFO] Schedule job started.
+2012-03-22 20:00:02 [INFO] Schedule job finished.
+2012-03-22 20:05:01 [INFO] Schedule job started.
+2012-03-22 20:05:02 [INFO] Schedule job finished.
+2012-03-23 00:00:02 [INFO] Schedule job started.
+Traceback (most recent call last):
+  File "./bug_contest.py", line 156, in <module>
+    itemlst = grab_data()
+  File "./bug_contest.py", line 115, in grab_data
+    sock = urllib.urlopen(_datsrc)
+  File "/usr/lib64/python2.6/urllib.py", line 86, in urlopen
+    return opener.open(url)
+  File "/usr/lib64/python2.6/urllib.py", line 205, in open
+    return getattr(self, name)(url)
+  File "/usr/lib64/python2.6/urllib.py", line 344, in open_http
+    h.endheaders()
+  File "/usr/lib64/python2.6/httplib.py", line 904, in endheaders
+    self._send_output()
+  File "/usr/lib64/python2.6/httplib.py", line 776, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python2.6/httplib.py", line 735, in send
+    self.connect()
+  File "/usr/lib64/python2.6/httplib.py", line 716, in connect
+    self.timeout)
+  File "/usr/lib64/python2.6/socket.py", line 500, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+IOError: [Errno socket error] [Errno -2] Name or service not known
+2012-03-23 00:05:06 [INFO] Schedule job started.
+2012-03-23 00:05:07 [INFO] Schedule job finished.
+2012-03-23 04:00:01 [INFO] Schedule job started.
+2012-03-23 04:00:02 [INFO] Schedule job finished.
+2012-03-23 04:05:02 [INFO] Schedule job started.
+2012-03-23 04:05:32 [INFO] Schedule job finished.
+2012-03-23 08:00:02 [INFO] Schedule job started.
+2012-03-23 08:00:03 [INFO] Schedule job finished.
+2012-03-23 08:05:02 [INFO] Schedule job started.
+2012-03-23 08:05:03 [INFO] Schedule job finished.
+2012-03-23 12:00:02 [INFO] Schedule job started.
+2012-03-23 12:00:02 [INFO] Schedule job finished.
+2012-03-23 12:05:02 [INFO] Schedule job started.
+2012-03-23 12:05:03 [INFO] Schedule job finished.
+2012-03-23 16:00:02 [INFO] Schedule job started.
+2012-03-23 16:00:04 [INFO] Succeeded adding contest [63][2012 Spring Weekly Contest IV -- Hosted by 卢震鹏].
+2012-03-23 16:00:04 [INFO] Schedule job finished.
+2012-03-23 16:05:02 [INFO] Schedule job started.
+2012-03-23 16:05:03 [INFO] Schedule job finished.
+2012-03-23 20:00:02 [INFO] Schedule job started.
+2012-03-23 20:00:03 [INFO] Succeeded adding contest [64][2012 Spring Weekly Contest IV -- Hosted by 卢震鹏].
+2012-03-23 20:00:04 [INFO] Succeeded adding contest [65][2012校赛决赛].
+2012-03-23 20:00:05 [INFO] Succeeded adding contest [66][2012年每周一赛第五场].
+2012-03-23 20:00:05 [INFO] Schedule job finished.
+2012-03-23 20:05:02 [INFO] Schedule job started.
+2012-03-23 20:05:03 [INFO] Schedule job finished.
+2012-03-24 00:00:02 [INFO] Schedule job started.
+2012-03-24 00:00:03 [INFO] Succeeded adding contest [67][东北多校新生练习赛4-SITE HRBEU].
+2012-03-24 00:00:03 [INFO] Schedule job finished.
+2012-03-24 00:05:02 [INFO] Schedule job started.
+2012-03-24 00:05:03 [INFO] Schedule job finished.
+2012-03-24 04:00:02 [INFO] Schedule job started.
+2012-03-24 04:00:03 [INFO] Succeeded adding contest [68][Codeforces Round #114 (Div. 1)].
+2012-03-24 04:00:04 [INFO] Succeeded adding contest [69][Codeforces Round #114 (Div. 2)].
+2012-03-24 04:00:04 [INFO] Schedule job finished.
+2012-03-24 04:05:02 [INFO] Schedule job started.
+2012-03-24 04:05:02 [INFO] Schedule job finished.
+2012-03-24 08:00:02 [INFO] Schedule job started.
+2012-03-24 08:00:02 [INFO] Schedule job finished.
+2012-03-24 08:05:02 [INFO] Schedule job started.
+2012-03-24 08:05:02 [INFO] Schedule job finished.
+2012-03-24 12:00:01 [INFO] Schedule job started.
+2012-03-24 12:00:12 [INFO] Schedule job finished.
+2012-03-24 12:05:07 [INFO] Schedule job started.
+2012-03-24 12:05:08 [INFO] Schedule job finished.
+2012-03-24 16:00:02 [INFO] Schedule job started.
+2012-03-24 16:00:02 [INFO] Schedule job finished.
+2012-03-24 16:05:01 [INFO] Schedule job started.
+2012-03-24 16:05:02 [INFO] Schedule job finished.
+2012-03-24 20:00:08 [INFO] Schedule job started.
+2012-03-24 20:00:09 [INFO] Succeeded adding contest [70][VK Cup 2012 Round 2 (Unofficial Div. 2 Edition)].
+2012-03-24 20:00:10 [INFO] Succeeded adding contest [71][VK Cup 2012 Round 2].
+2012-03-24 20:00:12 [INFO] Succeeded adding contest [72][VK Cup 2012 Round 2 (Unofficial Div. 2 Edition)].
+2012-03-24 20:00:12 [INFO] Schedule job finished.
+2012-03-24 20:05:02 [INFO] Schedule job started.
+2012-03-24 20:05:02 [INFO] Schedule job finished.
+2012-03-25 00:00:02 [INFO] Schedule job started.
+2012-03-25 00:00:02 [INFO] Schedule job finished.
+2012-03-25 00:05:02 [INFO] Schedule job started.
+2012-03-25 00:05:02 [INFO] Schedule job finished.
+2012-03-25 04:00:06 [INFO] Schedule job started.
+2012-03-25 04:00:06 [INFO] Schedule job finished.
+2012-03-25 04:05:02 [INFO] Schedule job started.
+2012-03-25 04:05:02 [INFO] Schedule job finished.
+2012-03-25 08:00:01 [INFO] Schedule job started.
+2012-03-25 08:00:02 [INFO] Schedule job finished.
+2012-03-25 08:05:01 [INFO] Schedule job started.
+2012-03-25 08:05:02 [INFO] Schedule job finished.
+2012-03-25 12:00:01 [INFO] Schedule job started.
+2012-03-25 12:00:03 [INFO] Schedule job finished.
+2012-03-25 12:05:03 [INFO] Schedule job started.
+2012-03-25 12:05:04 [INFO] Schedule job finished.
+2012-03-25 16:00:02 [INFO] Schedule job started.
+2012-03-25 16:00:03 [INFO] Succeeded adding contest [73][迎接2012新赛季——HDOJ系列热身赛（3）].
+2012-03-25 16:00:03 [INFO] Schedule job finished.
+2012-03-25 16:05:01 [INFO] Schedule job started.
+2012-03-25 16:05:02 [INFO] Schedule job finished.
+2012-03-25 20:00:02 [INFO] Schedule job started.
+2012-03-25 20:00:02 [INFO] Schedule job finished.
+2012-03-25 20:05:01 [INFO] Schedule job started.
+2012-03-25 20:05:02 [INFO] Schedule job finished.
+2012-03-26 00:00:07 [INFO] Schedule job started.
+2012-03-26 00:00:08 [INFO] Succeeded adding contest [74][CodeAction Beta Game #04 ( with Challenge ) ( BNUOJ 3rd Anniversary )].
+2012-03-26 00:00:08 [INFO] Schedule job finished.
+2012-03-26 00:05:01 [INFO] Schedule job started.
+2012-03-26 00:05:02 [INFO] Schedule job finished.
+2012-03-26 04:00:02 [INFO] Schedule job started.
+2012-03-26 04:00:02 [INFO] Schedule job finished.
+2012-03-26 04:05:02 [INFO] Schedule job started.
+2012-03-26 04:05:02 [INFO] Schedule job finished.
+2012-03-26 08:00:02 [INFO] Schedule job started.
+2012-03-26 08:00:02 [INFO] Schedule job finished.
+2012-03-26 08:05:02 [INFO] Schedule job started.
+2012-03-26 08:05:40 [INFO] Schedule job finished.
+2012-03-26 12:00:02 [INFO] Schedule job started.
+2012-03-26 12:00:02 [INFO] Schedule job finished.
+2012-03-26 12:05:02 [INFO] Schedule job started.
+2012-03-26 12:05:03 [INFO] Schedule job finished.
+2012-03-26 16:00:02 [INFO] Schedule job started.
+2012-03-26 16:00:02 [INFO] Schedule job finished.
+2012-03-26 16:05:01 [INFO] Schedule job started.
+2012-03-26 16:05:02 [INFO] Schedule job finished.
+2012-03-26 20:00:02 [INFO] Schedule job started.
+2012-03-26 20:00:02 [INFO] Schedule job finished.
+2012-03-26 20:05:02 [INFO] Schedule job started.
+2012-03-26 20:05:03 [INFO] Schedule job finished.
+2012-03-27 00:00:02 [INFO] Schedule job started.
+2012-03-27 00:00:03 [INFO] Succeeded adding contest [79][第十届北京师范大学程序设计竞赛热身赛第一场].
+2012-03-27 00:00:04 [INFO] Succeeded adding contest [78][第十届北京师范大学程序设计竞赛热身赛第二场].
+2012-03-27 00:00:04 [INFO] Succeeded adding contest [77][第十届北京师范大学程序设计竞赛热身赛第三场].
+2012-03-27 00:00:05 [INFO] Succeeded adding contest [76][第十届北京师范大学程序设计竞赛网络预赛].
+2012-03-27 00:00:06 [INFO] Succeeded adding contest [75][第十届北京师范大学程序设计竞赛（网络同步赛）].
+2012-03-27 00:00:06 [INFO] Schedule job finished.
+2012-03-27 00:05:02 [INFO] Schedule job started.
+2012-03-27 00:05:02 [INFO] Schedule job finished.
+2012-03-27 04:00:02 [INFO] Schedule job started.
+2012-03-27 04:00:03 [INFO] Succeeded adding contest [80][VK Cup 2012 Wild-card Round 2].
+2012-03-27 04:00:04 [INFO] Succeeded adding contest [81][April Fools Day Contest].
+2012-03-27 04:00:04 [INFO] Schedule job finished.
+2012-03-27 04:05:02 [INFO] Schedule job started.
+2012-03-27 04:05:02 [INFO] Schedule job finished.
+2012-03-27 08:00:02 [INFO] Schedule job started.
+2012-03-27 08:00:02 [INFO] Schedule job finished.
+2012-03-27 08:05:02 [INFO] Schedule job started.
+2012-03-27 08:05:03 [INFO] Schedule job finished.
+2012-03-27 12:00:01 [INFO] Schedule job started.
+2012-03-27 12:00:10 [INFO] Schedule job finished.
+2012-03-27 12:05:02 [INFO] Schedule job started.
+2012-03-27 12:05:02 [INFO] Schedule job finished.
+2012-03-27 16:00:01 [INFO] Schedule job started.
+2012-03-27 16:00:02 [INFO] Schedule job finished.
+2012-03-27 16:05:01 [INFO] Schedule job started.
+2012-03-27 16:05:02 [INFO] Schedule job finished.
+2012-03-27 20:00:02 [INFO] Schedule job started.
+2012-03-27 20:00:03 [INFO] Succeeded adding contest [82][新生PK赛3].
+2012-03-27 20:00:03 [INFO] Schedule job finished.
+2012-03-27 20:05:02 [INFO] Schedule job started.
+2012-03-27 20:05:02 [INFO] Schedule job finished.
+2012-03-28 00:00:01 [INFO] Schedule job started.
+2012-03-28 00:00:02 [INFO] Schedule job finished.
+2012-03-28 00:05:01 [INFO] Schedule job started.
+2012-03-28 00:05:02 [INFO] Schedule job finished.
+2012-03-28 04:00:01 [INFO] Schedule job started.
+2012-03-28 04:00:03 [INFO] Succeeded adding contest [83][April Challenge 2012].
+2012-03-28 04:00:03 [INFO] Schedule job finished.
+2012-03-28 04:05:01 [INFO] Schedule job started.
+2012-03-28 04:05:02 [INFO] Schedule job finished.
+2012-03-28 08:00:01 [INFO] Schedule job started.
+2012-03-28 08:00:02 [INFO] Schedule job finished.
+2012-03-28 08:05:01 [INFO] Schedule job started.
+2012-03-28 08:05:02 [INFO] Schedule job finished.
+2012-03-28 12:00:01 [INFO] Schedule job started.
+2012-03-28 12:00:03 [INFO] Succeeded adding contest [84][11级随机算法].
+2012-03-28 12:00:03 [INFO] Schedule job finished.
+2012-03-28 12:05:01 [INFO] Schedule job started.
+2012-03-28 12:05:02 [INFO] Schedule job finished.
+2012-03-28 16:00:02 [INFO] Schedule job started.
+2012-03-28 16:00:02 [INFO] Schedule job finished.
+2012-03-28 16:05:02 [INFO] Schedule job started.
+2012-03-28 16:05:02 [INFO] Schedule job finished.
+2012-03-28 20:00:01 [INFO] Schedule job started.
+2012-03-28 20:00:02 [INFO] Schedule job finished.
+2012-03-28 20:05:02 [INFO] Schedule job started.
+2012-03-28 20:05:02 [INFO] Schedule job finished.
+2012-03-29 00:00:02 [INFO] Schedule job started.
+2012-03-29 00:00:03 [INFO] Succeeded adding contest [85][迎接2012新赛季——HDOJ系列热身赛（4）].
+2012-03-29 00:00:03 [INFO] Schedule job finished.
+2012-03-29 00:05:02 [INFO] Schedule job started.
+2012-03-29 00:05:03 [INFO] Schedule job finished.
+2012-03-29 04:00:02 [INFO] Schedule job started.
+2012-03-29 04:00:03 [INFO] Schedule job finished.
+2012-03-29 04:05:01 [INFO] Schedule job started.
+2012-03-29 04:05:02 [INFO] Schedule job finished.
+2012-03-29 08:00:02 [INFO] Schedule job started.
+2012-03-29 08:00:02 [INFO] Schedule job finished.
+2012-03-29 08:05:02 [INFO] Schedule job started.
+2012-03-29 08:05:02 [INFO] Schedule job finished.
+2012-03-29 12:00:02 [INFO] Schedule job started.
+2012-03-29 12:00:02 [INFO] Schedule job finished.
+2012-03-29 12:05:02 [INFO] Schedule job started.
+2012-03-29 12:05:02 [INFO] Schedule job finished.
+2012-03-29 16:00:02 [INFO] Schedule job started.
+2012-03-29 16:00:02 [INFO] Schedule job finished.
+2012-03-29 16:05:02 [INFO] Schedule job started.
+2012-03-29 16:05:02 [INFO] Schedule job finished.
+2012-03-29 20:00:02 [INFO] Schedule job started.
+2012-03-29 20:00:03 [INFO] Schedule job finished.
+2012-03-29 20:05:02 [INFO] Schedule job started.
+2012-03-29 20:05:02 [INFO] Schedule job finished.
+2012-03-30 00:00:02 [INFO] Schedule job started.
+2012-03-30 00:00:03 [INFO] Succeeded adding contest [90][吉林大学计算机学院研究生入学复试(2012)-现场热身赛].
+2012-03-30 00:00:03 [INFO] Succeeded adding contest [89][吉林大学计算机学院研究生入学复试(2012)].
+2012-03-30 00:00:05 [INFO] Succeeded adding contest [88][Spring Contest I].
+2012-03-30 00:00:06 [INFO] Succeeded adding contest [86][CSU Monthly 2012 Apr.].
+2012-03-30 00:00:17 [INFO] Succeeded adding contest [87][Spring Contest II].
+2012-03-30 00:00:17 [INFO] Schedule job finished.
+2012-03-30 00:05:01 [INFO] Schedule job started.
+2012-03-30 00:05:02 [INFO] Schedule job finished.
+2012-03-30 04:00:02 [INFO] Schedule job started.
+2012-03-30 04:00:03 [INFO] Succeeded adding contest [91][Paradigm Shift contest 2012].
+2012-03-30 04:00:03 [INFO] Schedule job finished.
+2012-03-30 04:05:02 [INFO] Schedule job started.
+2012-03-30 04:05:02 [INFO] Schedule job finished.
+2012-03-30 08:00:02 [INFO] Schedule job started.
+2012-03-30 08:00:03 [INFO] Schedule job finished.
+2012-03-30 08:05:01 [INFO] Schedule job started.
+2012-03-30 08:05:02 [INFO] Schedule job finished.
+2012-03-30 12:00:02 [INFO] Schedule job started.
+2012-03-30 12:00:02 [INFO] Schedule job finished.
+2012-03-30 12:05:01 [INFO] Schedule job started.
+2012-03-30 12:05:12 [INFO] Schedule job finished.
+2012-03-30 16:00:02 [INFO] Schedule job started.
+2012-03-30 16:00:03 [INFO] Schedule job finished.
+2012-03-30 16:05:01 [INFO] Schedule job started.
+2012-03-30 16:05:02 [INFO] Schedule job finished.
+2012-03-30 20:00:02 [INFO] Schedule job started.
+2012-03-30 20:00:03 [INFO] Succeeded adding contest [99][2012年每周一赛第六场].
+2012-03-30 20:00:05 [INFO] Succeeded adding contest [94][Algorithm Round 1A].
+2012-03-30 20:00:05 [INFO] Succeeded adding contest [93][东北多校新生练习赛5-SITE DLUT].
+2012-03-30 20:00:07 [INFO] Succeeded adding contest [95][Marathon Round 1].
+2012-03-30 20:00:08 [INFO] Succeeded adding contest [96][Algorithm Round 1B].
+2012-03-30 20:00:09 [INFO] Succeeded adding contest [97][Algorithm Round 1C].
+2012-03-30 20:00:10 [INFO] Succeeded adding contest [98][Algorithm Round 2A].
+2012-03-30 20:00:10 [INFO] Schedule job finished.
+2012-03-30 20:05:02 [INFO] Schedule job started.
+2012-03-30 20:05:02 [INFO] Schedule job finished.
+2012-03-31 00:00:02 [INFO] Schedule job started.
+2012-03-31 00:00:04 [INFO] Succeeded adding contest [100][11级工设上机练习].
+2012-03-31 00:00:04 [INFO] Succeeded adding contest [101][CodeAction Beta Game #04 ( BNUOJ 3rd Anniversary ) ( Problems Provided by AekdyCoin )].
+2012-03-31 00:00:05 [INFO] Succeeded adding contest [102][东北多校新生练习赛5-SITE DLUT].
+2012-03-31 00:00:05 [INFO] Schedule job finished.
+2012-03-31 00:05:02 [INFO] Schedule job started.
+2012-03-31 00:05:02 [INFO] Schedule job finished.
+2012-03-31 04:00:02 [INFO] Schedule job started.
+2012-03-31 04:00:44 [INFO] Succeeded adding contest [103][“网宿科技杯”厦门大学第九届程序设计竞赛 网络预赛（1）& 第三场积分赛].
+2012-03-31 04:00:44 [INFO] Schedule job finished.
+2012-03-31 04:05:02 [INFO] Schedule job started.
+2012-03-31 04:05:22 [INFO] Schedule job finished.
+2012-03-31 08:00:01 [INFO] Schedule job started.
+2012-03-31 08:00:22 [INFO] Schedule job finished.
+2012-03-31 08:05:02 [INFO] Schedule job started.
+2012-03-31 08:05:23 [INFO] Schedule job finished.
+2012-03-31 12:00:02 [INFO] Schedule job started.
+2012-03-31 12:00:03 [INFO] Schedule job finished.
+2012-03-31 12:05:01 [INFO] Schedule job started.
+2012-03-31 12:05:12 [INFO] Schedule job finished.
+2012-03-31 16:00:02 [INFO] Schedule job started.
+2012-03-31 16:00:13 [INFO] Schedule job finished.
+2012-03-31 16:05:02 [INFO] Schedule job started.
+2012-03-31 16:05:02 [INFO] Schedule job finished.
+2012-03-31 20:00:02 [INFO] Schedule job started.
+2012-03-31 20:00:02 [INFO] Schedule job finished.
+2012-03-31 20:05:01 [INFO] Schedule job started.
+2012-03-31 20:05:02 [INFO] Schedule job finished.
+2012-04-01 00:00:01 [INFO] Schedule job started.
+2012-04-01 00:00:02 [INFO] Schedule job finished.
+2012-04-01 00:05:01 [INFO] Schedule job started.
+2012-04-01 00:05:07 [INFO] Schedule job finished.
+2012-04-01 04:00:02 [INFO] Schedule job started.
+2012-04-01 04:00:03 [INFO] Succeeded adding contest [104][115 - The 12th Zhejiang University Programming Contest].
+2012-04-01 04:00:03 [INFO] Schedule job finished.
+2012-04-01 04:05:02 [INFO] Schedule job started.
+2012-04-01 04:05:14 [INFO] Schedule job finished.
+2012-04-01 08:00:02 [INFO] Schedule job started.
+2012-04-01 08:00:13 [INFO] Schedule job finished.
+2012-04-01 08:05:01 [INFO] Schedule job started.
+2012-04-01 08:05:02 [INFO] Schedule job finished.
+2012-04-01 12:00:01 [INFO] Schedule job started.
+2012-04-01 12:00:02 [INFO] Succeeded adding contest [106][湖南工业大学第二届ACM程序设计竞赛现场热身赛].
+2012-04-01 12:00:04 [INFO] Succeeded adding contest [105][湖南工业大学第二届ACM程序设计竞赛现场正式比赛].
+2012-04-01 12:00:04 [INFO] Schedule job finished.
+2012-04-01 12:05:01 [INFO] Schedule job started.
+2012-04-01 12:05:17 [INFO] Schedule job finished.
+2012-04-01 16:00:02 [INFO] Schedule job started.
+2012-04-01 16:00:03 [INFO] Schedule job finished.
+2012-04-01 16:05:01 [INFO] Schedule job started.
+2012-04-01 16:05:02 [INFO] Schedule job finished.
+2012-04-01 20:00:02 [INFO] Schedule job started.
+2012-04-01 20:00:02 [INFO] Schedule job finished.
+2012-04-01 20:05:01 [INFO] Schedule job started.
+2012-04-01 20:05:02 [INFO] Schedule job finished.
+2012-04-02 00:00:02 [INFO] Schedule job started.
+2012-04-02 00:00:14 [INFO] Schedule job finished.
+2012-04-02 00:05:02 [INFO] Schedule job started.
+2012-04-02 00:05:03 [INFO] Schedule job finished.
+2012-04-02 04:00:02 [INFO] Schedule job started.
+2012-04-02 04:00:03 [INFO] Succeeded adding contest [107][Croc Champ 2012 - Qualification Round].
+2012-04-02 04:00:03 [INFO] Schedule job finished.
+2012-04-02 04:05:02 [INFO] Schedule job started.
+2012-04-02 04:05:03 [INFO] Schedule job finished.
+2012-04-02 08:00:02 [INFO] Schedule job started.
+2012-04-02 08:00:03 [INFO] Schedule job finished.
+2012-04-02 08:05:01 [INFO] Schedule job started.
+2012-04-02 08:05:02 [INFO] Schedule job finished.
+2012-04-02 12:00:01 [INFO] Schedule job started.
+2012-04-02 12:00:02 [INFO] Schedule job finished.
+2012-04-02 12:05:01 [INFO] Schedule job started.
+2012-04-02 12:05:02 [INFO] Schedule job finished.
+2012-04-02 16:00:02 [INFO] Schedule job started.
+2012-04-02 16:00:03 [INFO] Schedule job finished.
+2012-04-02 16:05:01 [INFO] Schedule job started.
+2012-04-02 16:05:02 [INFO] Schedule job finished.
+2012-04-02 20:00:02 [INFO] Schedule job started.
+2012-04-02 20:00:04 [INFO] Succeeded adding contest [109][Code Wars 2012].
+2012-04-02 20:00:05 [INFO] Succeeded adding contest [108][11级经管7,9班上机练习].
+2012-04-02 20:00:05 [INFO] Schedule job finished.
+2012-04-02 20:05:02 [INFO] Schedule job started.
+2012-04-02 20:05:02 [INFO] Schedule job finished.
+2012-04-03 00:00:01 [INFO] Schedule job started.
+2012-04-03 00:00:02 [INFO] Succeeded adding contest [110][CodeAction Beta Game #05].
+2012-04-03 00:00:02 [INFO] Schedule job finished.
+2012-04-03 00:05:02 [INFO] Schedule job started.
+2012-04-03 00:05:03 [INFO] Schedule job finished.
+2012-04-03 04:00:02 [INFO] Schedule job started.
+2012-04-03 04:00:02 [INFO] Schedule job finished.
+2012-04-03 04:05:02 [INFO] Schedule job started.
+2012-04-03 04:05:03 [INFO] Schedule job finished.
+2012-04-03 08:00:02 [INFO] Schedule job started.
+2012-04-03 08:00:03 [INFO] Schedule job finished.
+2012-04-03 08:05:01 [INFO] Schedule job started.
+2012-04-03 08:05:02 [INFO] Schedule job finished.
+2012-04-03 12:00:02 [INFO] Schedule job started.
+2012-04-03 12:00:03 [INFO] Succeeded adding contest [111][11级经管7,9班上机练习].
+2012-04-03 12:00:03 [INFO] Schedule job finished.
+2012-04-03 12:05:02 [INFO] Schedule job started.
+2012-04-03 12:05:02 [INFO] Schedule job finished.
+2012-04-03 16:00:02 [INFO] Schedule job started.
+2012-04-03 16:00:03 [INFO] Succeeded adding contest [112][Warmup for 2012 HIT@Weihai School Contest].
+2012-04-03 16:00:03 [INFO] Schedule job finished.
+2012-04-03 16:05:01 [INFO] Schedule job started.
+2012-04-03 16:05:02 [INFO] Schedule job finished.
+2012-04-03 20:00:02 [INFO] Schedule job started.
+2012-04-03 20:00:03 [INFO] Schedule job finished.
+2012-04-03 20:05:01 [INFO] Schedule job started.
+2012-04-03 20:05:02 [INFO] Schedule job finished.
+2012-04-04 00:00:02 [INFO] Schedule job started.
+2012-04-04 00:00:03 [INFO] Schedule job finished.
+2012-04-04 00:05:01 [INFO] Schedule job started.
+2012-04-04 00:05:02 [INFO] Schedule job finished.
+2012-04-04 04:00:02 [INFO] Schedule job started.
+2012-04-04 04:00:02 [INFO] Schedule job finished.
+2012-04-04 04:05:02 [INFO] Schedule job started.
+2012-04-04 04:05:02 [INFO] Schedule job finished.
+2012-04-04 08:00:02 [INFO] Schedule job started.
+2012-04-04 08:00:02 [INFO] Schedule job finished.
+2012-04-04 08:05:02 [INFO] Schedule job started.
+2012-04-04 08:05:02 [INFO] Schedule job finished.
+2012-04-04 12:00:02 [INFO] Schedule job started.
+2012-04-04 12:00:03 [INFO] Schedule job finished.
+2012-04-04 12:05:02 [INFO] Schedule job started.
+2012-04-04 12:05:03 [INFO] Schedule job finished.
+2012-04-04 16:00:01 [INFO] Schedule job started.
+2012-04-04 16:00:02 [INFO] Schedule job finished.
+2012-04-04 16:05:02 [INFO] Schedule job started.
+2012-04-04 16:05:03 [INFO] Schedule job finished.
+2012-04-04 20:00:02 [INFO] Schedule job started.
+2012-04-04 20:00:13 [INFO] Succeeded adding contest [113][新生PK赛4].
+2012-04-04 20:00:13 [INFO] Schedule job finished.
+2012-04-04 20:05:01 [INFO] Schedule job started.
+2012-04-04 20:05:02 [INFO] Schedule job finished.
+2012-04-05 00:00:02 [INFO] Schedule job started.
+2012-04-05 00:00:04 [INFO] Succeeded adding contest [115][The 10th UESTC Programming Contest Warmup #3].
+2012-04-05 00:00:04 [INFO] Succeeded adding contest [114][The 10th UESTC Programming Contest Final].
+2012-04-05 00:00:06 [INFO] Succeeded adding contest [116][计算机与通信学院素质提升班选拔赛].
+2012-04-05 00:00:06 [INFO] Schedule job finished.
+2012-04-05 00:05:01 [INFO] Schedule job started.
+2012-04-05 00:05:02 [INFO] Schedule job finished.
+2012-04-05 04:00:01 [INFO] Schedule job started.
+2012-04-05 04:00:02 [INFO] Schedule job finished.
+2012-04-05 04:05:02 [INFO] Schedule job started.
+2012-04-05 04:05:03 [INFO] Schedule job finished.
+2012-04-05 08:00:01 [INFO] Schedule job started.
+2012-04-05 08:00:16 [INFO] Schedule job finished.
+2012-04-05 08:05:01 [INFO] Schedule job started.
+2012-04-05 08:05:02 [INFO] Schedule job finished.
+2012-04-05 12:00:02 [INFO] Schedule job started.
+2012-04-05 12:00:07 [INFO] Schedule job finished.
+2012-04-05 12:05:02 [INFO] Schedule job started.
+2012-04-05 12:05:02 [INFO] Schedule job finished.
+2012-04-05 16:00:01 [INFO] Schedule job started.
+2012-04-05 16:00:02 [INFO] Succeeded adding contest [117][HUNNU练习赛1].
+2012-04-05 16:00:02 [INFO] Schedule job finished.
+2012-04-05 16:05:02 [INFO] Schedule job started.
+2012-04-05 16:05:03 [INFO] Schedule job finished.
+2012-04-05 20:00:20 [INFO] Schedule job started.
+2012-04-05 20:00:34 [INFO] Succeeded adding contest [120][&#1063;&#1077;&#1084;&#1087;&#1080;&#1086;&#1085;&#1072;&#1090; &#1050;&#1056;&#1054;&#1050; 2012 - &#1056;&#1072;&#1091;&#1085;&#1076; 1].
+2012-04-05 20:00:34 [INFO] Schedule job finished.
+2012-04-05 20:05:04 [INFO] Schedule job started.
+2012-04-05 20:05:05 [INFO] Schedule job finished.
+2012-04-06 00:00:01 [INFO] Schedule job started.
+2012-04-06 00:00:26 [INFO] Succeeded adding contest [124][Croc Champ 2012 - Round 1].
+2012-04-06 00:00:56 [INFO] Succeeded adding contest [123][厦门大学第九届程序设计竞赛 Warm Up].
+2012-04-06 00:00:57 [INFO] Succeeded adding contest [122][“网宿科技杯”厦门大学第九届程序设计竞赛 网络预赛（1）& 第三场积分赛].
+2012-04-06 00:00:57 [INFO] Schedule job finished.
+2012-04-06 00:05:02 [INFO] Schedule job started.
+2012-04-06 00:05:09 [INFO] Schedule job finished.
+2012-04-06 04:00:02 [INFO] Schedule job started.
+2012-04-06 04:00:03 [INFO] Succeeded adding contest [125][Marathon Round 2].
+2012-04-06 04:00:05 [INFO] Succeeded adding contest [126][SRM 542].
+2012-04-06 04:00:05 [INFO] Succeeded adding contest [127][Algorithm Round 2B].
+2012-04-06 04:00:06 [INFO] Succeeded adding contest [128][SRM 543].
+2012-04-06 04:00:07 [INFO] Succeeded adding contest [129][SRM 544].
+2012-04-06 04:00:08 [INFO] Succeeded adding contest [130][Marathon Round 3].
+2012-04-06 04:00:08 [INFO] Schedule job finished.
+2012-04-06 04:05:02 [INFO] Schedule job started.
+2012-04-06 04:05:02 [INFO] Schedule job finished.
+2012-04-06 08:00:20 [INFO] Schedule job started.
+2012-04-06 08:00:23 [INFO] Schedule job finished.
+2012-04-06 08:05:05 [INFO] Schedule job started.
+2012-04-06 08:05:06 [INFO] Schedule job finished.
+2012-04-06 12:00:04 [INFO] Schedule job started.
+2012-04-06 12:00:17 [INFO] Succeeded adding contest [131][计算机与通信学院大一素质提升班选拔赛].
+2012-04-06 12:00:17 [INFO] Schedule job finished.
+2012-04-06 12:05:02 [INFO] Schedule job started.
+2012-04-06 12:05:03 [INFO] Schedule job finished.
+2012-04-09 22:58:21 [INFO] Schedule job started.
+2012-04-09 22:58:35 [INFO] Succeeded adding contest [151][Qualification Round].
+2012-04-09 22:58:41 [INFO] Succeeded adding contest [158][USTC Monthly Contest 2012-04-14( for USTCers )].
+2012-04-09 22:58:41 [INFO] Succeeded adding contest [149][116 - The 9th Zhejiang Provincial Collegiate Programming Contest].
+2012-04-09 22:58:42 [INFO] Succeeded adding contest [159][USTC Monthly Contest 2012-04-14].
+2012-04-09 22:58:42 [INFO] Succeeded adding contest [150][HUNNU练习赛2].
+2012-04-09 22:58:46 [INFO] Succeeded adding contest [148][Codeforces Round #115].
+2012-04-09 22:58:46 [INFO] Succeeded adding contest [160][The 10th UESTC Programming Contest Final (Public)].
+2012-04-09 22:58:47 [INFO] Succeeded adding contest [161][CodeAction Beta Game #06].
+2012-04-09 22:58:47 [INFO] Succeeded adding contest [157][“网宿科技杯”厦门大学第九届程序设计竞赛 网络预赛（2）].
+2012-04-09 22:58:48 [INFO] Succeeded adding contest [152][Online Round 1: Sub-Round A].
+2012-04-09 22:58:48 [INFO] Succeeded adding contest [137][X Programming Olympiads in Murcia (Spain)].
+2012-04-09 22:58:49 [INFO] Succeeded adding contest [153][Online Round 1: Sub-Round B].
+2012-04-09 22:58:49 [INFO] Succeeded adding contest [154][Online Round 1: Sub-Round C].
+2012-04-09 22:58:49 [INFO] Succeeded adding contest [58][计算机学院大学生程序设计竞赛（2012’05）(暑期集训队选拔赛)].
+2012-04-09 22:58:49 [INFO] Schedule job finished.
+2012-04-10 13:02:38 [INFO] Schedule job started.
+2012-04-10 13:18:43 [INFO] Schedule job started.
+2012-04-10 13:26:41 [INFO] Schedule job started.
+2012-04-10 13:26:43 [INFO] Succeeded adding contest [158][2012-04-14 12:00:00][USTC Monthly Contest 2012-04-14( for USTCers )].
+2012-04-10 13:26:43 [INFO] Schedule job finished.
+2012-04-10 13:32:06 [INFO] Schedule job started.
+2012-04-10 13:32:07 [INFO] Succeeded adding contest [149][2012-04-14 13:00:00][116 - The 9th Zhejiang Provincial Collegiate Programming Contest].
+2012-04-10 13:32:07 [INFO] Schedule job finished.
+2012-04-10 13:34:19 [INFO] Schedule job started.
+2012-04-10 13:34:21 [INFO] Succeeded adding contest [159][2012-04-14 13:00:00][USTC Monthly Contest 2012-04-14].
+2012-04-10 13:34:22 [INFO] Succeeded adding contest [150][2012-04-14 14:00:00][HUNNU练习赛2].
+2012-04-10 13:34:23 [INFO] Succeeded adding contest [148][2012-04-14 16:00:00][Codeforces Round #115].
+2012-04-10 13:34:23 [INFO] Succeeded adding contest [160][2012-04-15 12:30:00][The 10th UESTC Programming Contest Final (Public)].
+2012-04-10 13:34:24 [INFO] Succeeded adding contest [161][2012-04-15 20:00:00][CodeAction Beta Game #06].
+2012-04-10 13:34:25 [INFO] Succeeded adding contest [157][2012-04-22 12:00:00][“网宿科技杯”厦门大学第九届程序设计竞赛 网络预赛（2）].
+2012-04-10 13:34:25 [INFO] Succeeded adding contest [152][2012-04-28 09:00:00][Online Round 1: Sub-Round A].
+2012-04-10 13:34:26 [INFO] Succeeded adding contest [137][2012-05-05 15:30:00][X Programming Olympiads in Murcia (Spain)].
+2012-04-10 13:34:27 [INFO] Succeeded adding contest [153][2012-05-06 00:00:00][Online Round 1: Sub-Round B].
+2012-04-10 13:34:27 [INFO] Succeeded adding contest [154][2012-05-06 17:00:00][Online Round 1: Sub-Round C].
+2012-04-10 13:34:28 [INFO] Succeeded adding contest [58][2012-05-26 12:00:00][计算机学院大学生程序设计竞赛（2012’05）(暑期集训队选拔赛)].
+2012-04-10 13:34:28 [INFO] Schedule job finished.
+2012-04-10 16:00:02 [INFO] Schedule job started.
+2012-04-10 16:00:07 [INFO] Succeeded adding contest [156][2012-06-09 14:00:00][湖南工业大学第二届ACM程序设计竞赛现场热身赛].
+2012-04-10 16:00:07 [INFO] Schedule job finished.
+2012-04-10 20:00:01 [INFO] Schedule job started.
+2012-04-10 20:00:05 [INFO] Succeeded adding contest [163][2012-04-10 17:00:00][数据测试2].
+2012-04-10 20:00:05 [INFO] Schedule job finished.
+2012-04-11 00:00:02 [INFO] Schedule job started.
+2012-04-11 00:00:15 [INFO] Succeeded adding contest [164][2012-04-11 18:30:00][新生PK赛-最后的战役].
+2012-04-11 00:00:15 [INFO] Schedule job finished.
+2012-04-11 04:00:01 [INFO] Schedule job started.
+2012-04-11 04:00:02 [INFO] Schedule job finished.
+2012-04-11 08:00:02 [INFO] Schedule job started.
+2012-04-11 08:00:03 [INFO] Schedule job finished.
+2012-04-11 12:00:01 [INFO] Schedule job started.
+2012-04-11 12:00:04 [INFO] Succeeded adding contest [155][2012-06-10 09:00:00][湖南工业大学第二届ACM程序设计竞赛现场正式比赛].
+2012-04-11 12:00:04 [INFO] Schedule job finished.
+2012-04-11 16:00:01 [INFO] Schedule job started.
+2012-04-11 16:00:02 [INFO] Schedule job finished.
+2012-04-11 20:00:02 [INFO] Schedule job started.
+2012-04-11 20:00:04 [INFO] Succeeded adding contest [165][2012-04-11 16:30:00][TESTING].
+2012-04-11 20:00:05 [INFO] Succeeded adding contest [167][2012-04-11 22:30:00][新生PK赛-最后的战役].
+2012-04-11 20:00:05 [INFO] Succeeded adding contest [166][2012-04-18 14:30:00][11级随机算法].
+2012-04-11 20:00:05 [INFO] Schedule job finished.
+2012-04-12 00:00:01 [INFO] Schedule job started.
+2012-04-12 00:00:02 [INFO] Succeeded adding contest [168][2012-04-20 23:00:00][Croc Champ 2012 - Round 2].
+2012-04-12 00:00:03 [INFO] Succeeded adding contest [169][2012-04-21 22:00:00][ABBYY Cup 2.0 - Easy].
+2012-04-12 00:00:03 [INFO] Succeeded adding contest [170][2012-04-28 20:00:00][ABBYY Cup 2.0 - Hard].
+2012-04-12 00:00:03 [INFO] Schedule job finished.
+2012-04-12 04:00:02 [INFO] Schedule job started.
+2012-04-12 04:00:03 [INFO] Schedule job finished.
+2012-04-12 08:00:01 [INFO] Schedule job started.
+2012-04-12 08:00:02 [INFO] Schedule job finished.
+2012-04-12 12:00:02 [INFO] Schedule job started.
+2012-04-12 12:00:03 [INFO] Schedule job finished.
+2012-04-12 16:00:02 [INFO] Schedule job started.
+2012-04-12 16:00:03 [INFO] Schedule job finished.
+2012-04-12 20:00:01 [INFO] Schedule job started.
+2012-04-12 20:00:03 [INFO] Succeeded adding contest [171][2012-04-14 12:00:00][USTC Monthly Contest 2012-04-14( for USTCers )].
+2012-04-12 20:00:04 [INFO] Succeeded adding contest [172][2012-04-14 19:00:00][北京邮电大学2012级硕士研究生上机热身].
+2012-04-12 20:00:04 [INFO] Succeeded adding contest [173][2012-04-15 13:00:00][FOJ有奖月赛-2012年4月（校赛热身赛）].
+2012-04-12 20:00:04 [INFO] Schedule job finished.
+2012-04-13 00:00:02 [INFO] Schedule job started.
+2012-04-13 00:00:06 [INFO] Succeeded adding contest [174][2012-04-14 13:30:00][TESTING].
+2012-04-13 00:00:06 [INFO] Succeeded adding contest [175][2012-04-14 14:00:00][Android Hack Camp 2012].
+2012-04-13 00:00:06 [INFO] Schedule job finished.
+2012-04-13 04:00:01 [INFO] Schedule job started.
+2012-04-13 04:00:02 [INFO] Schedule job finished.
+2012-04-13 08:00:01 [INFO] Schedule job started.
+2012-04-13 08:00:04 [INFO] Schedule job finished.
+2012-04-13 12:00:05 [INFO] Schedule job started.
+2012-04-13 12:00:07 [INFO] Succeeded adding contest [176][2012-04-15 12:00:00][首届华中区程序设计邀请赛暨第十届武汉大学程序设计大赛].
+2012-04-13 12:00:07 [INFO] Schedule job finished.
+2012-04-13 16:00:02 [INFO] Schedule job started.
+2012-04-13 16:00:04 [INFO] Succeeded adding contest [178][2012-04-13 18:00:00][Spring Contest III].
+2012-04-13 16:00:04 [INFO] Succeeded adding contest [177][2012-04-14 12:00:00][NEUACM2012校内选拔赛].
+2012-04-13 16:00:04 [INFO] Schedule job finished.
+2012-04-13 20:00:05 [INFO] Schedule job started.
+2012-04-13 20:00:07 [INFO] Succeeded adding contest [179][2012-04-14 18:30:00][2012年每周一赛第八场].
+2012-04-13 20:00:07 [INFO] Schedule job finished.
+2012-04-14 00:00:27 [INFO] Schedule job started.
+2012-04-14 00:00:31 [INFO] Succeeded adding contest [181][2012-04-14 16:00:00][RazMERiq 2012 (Private Contest)].
+2012-04-14 00:00:32 [INFO] Succeeded adding contest [183][2012-04-15 12:00:00][Spring Contest IV].
+2012-04-14 00:00:32 [INFO] Succeeded adding contest [182][2012-04-15 18:45:00][2012年每周一赛第八场].
+2012-04-14 00:00:32 [INFO] Schedule job finished.
+2012-04-14 04:00:02 [INFO] Schedule job started.
+2012-04-14 04:00:02 [INFO] Schedule job finished.
+2012-04-14 08:00:02 [INFO] Schedule job started.
+2012-04-14 08:00:03 [INFO] Schedule job finished.
+2012-04-14 12:00:01 [INFO] Schedule job started.
+2012-04-14 12:00:07 [INFO] Schedule job finished.
+2012-04-14 16:00:02 [INFO] Schedule job started.
+2012-04-14 16:00:04 [INFO] Succeeded adding contest [186][2012-04-14 13:44:06][10CSD算法实验（4）].
+2012-04-14 16:00:04 [INFO] Succeeded adding contest [185][2012-04-14 14:00:01][USTC Monthly Contest 2012-04-14].
+2012-04-14 16:00:05 [INFO] Succeeded adding contest [188][2012-04-14 15:30:00][TESTING].
+2012-04-14 16:00:06 [INFO] Succeeded adding contest [187][2012-04-18 12:00:00][10CSD算法实验（5）].
+2012-04-14 16:00:06 [INFO] Schedule job finished.
+2012-04-14 20:00:02 [INFO] Schedule job started.
+2012-04-14 20:00:10 [INFO] Succeeded adding contest [190][2012-04-14 17:00:00][首届华中区程序设计邀请赛暨第十届武汉大学程序设计大赛].
+2012-04-14 20:00:11 [INFO] Succeeded adding contest [189][2012-04-14 17:10:00][NEUACM2012校内选拔赛].
+2012-04-14 20:00:11 [INFO] Schedule job finished.
+2012-04-15 00:00:02 [INFO] Schedule job started.
+2012-04-15 00:00:04 [INFO] Succeeded adding contest [191][2012-04-15 12:00:00][2012 Spring Weekly Contest VI -- Hosted by 赵程亮 陈玉标].
+2012-04-15 00:00:04 [INFO] Schedule job finished.
+2012-04-15 04:00:01 [INFO] Schedule job started.
+2012-04-15 04:00:03 [INFO] Schedule job finished.
+2012-04-15 08:00:01 [INFO] Schedule job started.
+2012-04-15 08:00:02 [INFO] Schedule job finished.
+2012-04-15 12:00:02 [INFO] Schedule job started.
+2012-04-15 12:00:08 [INFO] Schedule job finished.
+2012-04-15 16:00:01 [INFO] Schedule job started.
+2012-04-15 16:00:03 [INFO] Succeeded adding contest [192][2012-04-15 12:30:00][Spring Contest IV].
+2012-04-15 16:00:04 [INFO] Succeeded adding contest [195][2012-04-15 14:00:00][2012年北邮计算机学院研究生入学考试（复试）上机测试].
+2012-04-15 16:00:05 [INFO] Succeeded adding contest [194][2012-04-15 18:30:00][2012年北邮网研院研究生入学考试（复试）上机测试].
+2012-04-15 16:00:05 [INFO] Succeeded adding contest [193][2012-04-22 12:00:00][东北多校新生练习赛7-SITE NEU].
+2012-04-15 16:00:05 [INFO] Schedule job finished.
+2012-04-15 20:00:02 [INFO] Schedule job started.
+2012-04-15 20:00:03 [INFO] Schedule job finished.
+2012-04-16 00:00:02 [INFO] Schedule job started.
+2012-04-16 00:00:03 [INFO] Succeeded adding contest [196][2012-04-16 17:00:00][中南大学第六届大学生程序设计竞赛（Semilive）].
+2012-04-16 00:00:03 [INFO] Schedule job finished.
+2012-04-16 04:00:01 [INFO] Schedule job started.
+2012-04-16 04:00:02 [INFO] Schedule job finished.
+2012-04-16 08:00:02 [INFO] Schedule job started.
+2012-04-16 08:00:03 [INFO] Schedule job finished.
+2012-04-16 12:00:03 [INFO] Schedule job started.
+2012-04-16 12:00:04 [INFO] Schedule job finished.
+2012-04-16 16:00:02 [INFO] Schedule job started.
+2012-04-16 16:00:02 [INFO] Schedule job finished.
+2012-04-16 20:00:02 [INFO] Schedule job started.
+2012-04-16 20:00:03 [INFO] Schedule job finished.
+2012-04-17 00:00:01 [INFO] Schedule job started.
+2012-04-17 00:00:03 [INFO] Succeeded adding contest [198][2012-04-16 22:00:00][中南大学第六届大学生程序设计竞赛（Semilive）].
+2012-04-17 00:00:04 [INFO] Succeeded adding contest [199][2012-04-23 03:30:00][April Cook-Off 2012].
+2012-04-17 00:00:05 [INFO] Succeeded adding contest [197][2012-04-29 20:00:00][CodeAction Beta Game #07].
+2012-04-17 00:00:05 [INFO] Schedule job finished.
+2012-04-17 04:00:02 [INFO] Schedule job started.
+2012-04-17 04:00:03 [INFO] Schedule job finished.
+2012-04-17 08:00:01 [INFO] Schedule job started.
+2012-04-17 08:00:02 [INFO] Schedule job finished.
+2012-04-17 12:00:01 [INFO] Schedule job started.
+2012-04-17 12:00:03 [INFO] Schedule job finished.
+2012-04-17 16:00:01 [INFO] Schedule job started.
+2012-04-17 16:00:03 [INFO] Succeeded adding contest [201][2012-05-20 09:30:00][6th Jilin Province Collegiate Programming Contest -- Warmup].
+2012-04-17 16:00:04 [INFO] Succeeded adding contest [200][2012-05-20 12:00:00][6th Jilin Province Collegiate Programming Contest].
+2012-04-17 16:00:04 [INFO] Schedule job finished.
+2012-04-17 20:00:01 [INFO] Schedule job started.
+2012-04-17 20:00:03 [INFO] Schedule job finished.
+2012-04-18 00:00:01 [INFO] Schedule job started.
+2012-04-18 00:00:02 [INFO] Schedule job finished.
+2012-04-18 04:00:02 [INFO] Schedule job started.
+2012-04-18 04:00:03 [INFO] Schedule job finished.
+2012-04-18 08:00:02 [INFO] Schedule job started.
+2012-04-18 08:00:02 [INFO] Schedule job finished.
+2012-04-18 12:00:01 [INFO] Schedule job started.
+2012-04-18 12:00:03 [INFO] Succeeded adding contest [202][2012-04-22 14:00:00][HUNNU练习赛3].
+2012-04-18 12:00:03 [INFO] Schedule job finished.
+2012-04-18 16:00:01 [INFO] Schedule job started.
+2012-04-18 16:00:02 [INFO] Schedule job finished.
+2012-04-18 20:00:02 [INFO] Schedule job started.
+2012-04-18 20:00:03 [INFO] Schedule job finished.
+2012-04-19 00:00:01 [INFO] Schedule job started.
+2012-04-19 00:00:07 [INFO] Schedule job finished.
+2012-04-19 04:00:01 [INFO] Schedule job started.
+2012-04-19 04:00:03 [INFO] Succeeded adding contest [203][2012-04-22 15:00:00][Codeforces Round #116 (Div. 2, ACM-ICPC Rules)].
+2012-04-19 04:00:03 [INFO] Schedule job finished.
+2012-04-19 08:00:01 [INFO] Schedule job started.
+2012-04-19 08:00:02 [INFO] Schedule job finished.
+2012-04-19 12:00:01 [INFO] Schedule job started.
+2012-04-19 12:00:03 [INFO] Succeeded adding contest [204][2012-04-21 12:00:00][“网宿科技杯”厦门大学第九届程序设计竞赛 网络预赛（2）].
+2012-04-19 12:00:03 [INFO] Schedule job finished.
+2012-04-19 16:00:01 [INFO] Schedule job started.
+2012-04-19 16:00:02 [INFO] Schedule job finished.
+2012-04-19 20:00:01 [INFO] Schedule job started.
+2012-04-19 20:00:02 [INFO] Schedule job finished.
+2012-04-20 00:00:02 [INFO] Schedule job started.
+2012-04-20 00:00:02 [INFO] Schedule job finished.
+2012-04-20 04:00:01 [INFO] Schedule job started.
+2012-04-20 04:00:02 [INFO] Schedule job finished.
+2012-04-20 08:00:02 [INFO] Schedule job started.
+2012-04-20 08:00:04 [INFO] Succeeded adding contest [205][2012-04-20 23:00:00][Croc Champ 2012 - Round 2 (Unofficial Div. 2 Edition)].
+2012-04-20 08:00:04 [INFO] Schedule job finished.
+2012-04-20 12:00:02 [INFO] Schedule job started.
+2012-04-20 12:00:04 [INFO] Schedule job finished.
+2012-04-20 16:00:01 [INFO] Schedule job started.
+2012-04-20 16:00:02 [INFO] Schedule job finished.
+2012-04-20 20:00:01 [INFO] Schedule job started.
+2012-04-20 20:00:04 [INFO] Schedule job finished.
+2012-04-21 00:00:01 [INFO] Schedule job started.
+2012-04-21 00:00:03 [INFO] Succeeded adding contest [207][2012-04-22 12:00:00][2012 Spring Weekly Contest VII -- Hosted by 岑武斌 杨振飞].
+2012-04-21 00:00:04 [INFO] Succeeded adding contest [206][2012-04-25 13:00:00][迎接2012新赛季——HDOJ系列热身赛（5）].
+2012-04-21 00:00:04 [INFO] Schedule job finished.
+2012-04-21 04:00:01 [INFO] Schedule job started.
+2012-04-21 04:00:02 [INFO] Schedule job finished.
+2012-04-21 08:00:01 [INFO] Schedule job started.
+2012-04-21 08:00:02 [INFO] Schedule job finished.
+2012-04-21 12:00:01 [INFO] Schedule job started.
+2012-04-21 12:00:02 [INFO] Schedule job finished.
+2012-04-21 16:00:01 [INFO] Schedule job started.
+2012-04-21 16:00:02 [INFO] Schedule job finished.
+2012-04-21 20:00:01 [INFO] Schedule job started.
+2012-04-21 20:00:02 [INFO] Schedule job finished.
+2012-04-22 00:00:02 [INFO] Schedule job started.
+2012-04-22 00:00:03 [INFO] Schedule job finished.
+2012-04-22 04:00:01 [INFO] Schedule job started.
+2012-04-22 04:00:03 [INFO] Schedule job finished.
+2012-04-22 08:00:02 [INFO] Schedule job started.
+2012-04-22 08:00:03 [INFO] Schedule job finished.
+2012-04-22 12:00:01 [INFO] Schedule job started.
+2012-04-22 12:00:02 [INFO] Schedule job finished.
+2012-04-22 16:00:02 [INFO] Schedule job started.
+2012-04-22 16:00:03 [INFO] Schedule job finished.
+2012-04-22 20:00:01 [INFO] Schedule job started.
+2012-04-22 20:00:02 [INFO] Schedule job finished.
+2012-04-23 00:00:02 [INFO] Schedule job started.
+2012-04-23 00:00:05 [INFO] Succeeded adding contest [208][2012-04-28 13:00:00][福州大学第九届程序设计竞赛].
+2012-04-23 00:00:05 [INFO] Schedule job finished.
+2012-04-23 04:00:01 [INFO] Schedule job started.
+2012-04-23 04:00:02 [INFO] Schedule job finished.
+2012-04-23 08:00:01 [INFO] Schedule job started.
+2012-04-23 08:00:02 [INFO] Schedule job finished.
+2012-04-23 12:00:01 [INFO] Schedule job started.
+2012-04-23 12:00:02 [INFO] Schedule job finished.
+2012-04-23 16:00:02 [INFO] Schedule job started.
+2012-04-23 16:00:03 [INFO] Schedule job finished.
+2012-04-23 20:00:01 [INFO] Schedule job started.
+2012-04-23 20:00:04 [INFO] Succeeded adding contest [210][2012-04-24 23:00:00][Codeforces Round #117 (Div. 2)].
+2012-04-23 20:00:04 [INFO] Succeeded adding contest [209][2012-05-06 14:00:00][HUNNU练习赛4].
+2012-04-23 20:00:04 [INFO] Schedule job finished.
+2012-04-24 00:00:02 [INFO] Schedule job started.
+2012-04-24 00:00:04 [INFO] Succeeded adding contest [213][2012-04-24 13:30:00][11级教务4班期中测试].
+2012-04-24 00:00:04 [INFO] Succeeded adding contest [212][2012-04-24 15:30:00][11级教务3班期中测试].
+2012-04-24 00:00:05 [INFO] Succeeded adding contest [211][2012-04-28 12:00:00][“网宿科技杯”厦门大学第九届程序设计竞赛 网络预赛（2）].
+2012-04-24 00:00:05 [INFO] Schedule job finished.
+2012-04-24 04:00:01 [INFO] Schedule job started.
+2012-04-24 04:00:03 [INFO] Schedule job finished.
+2012-04-24 08:00:02 [INFO] Schedule job started.
+2012-04-24 08:00:03 [INFO] Schedule job finished.
+2012-04-24 12:00:01 [INFO] Schedule job started.
+2012-04-24 12:00:02 [INFO] Schedule job finished.
+2012-04-24 16:00:01 [INFO] Schedule job started.
+2012-04-24 16:00:07 [INFO] Schedule job finished.
+2012-04-24 20:00:01 [INFO] Schedule job started.
+2012-04-24 20:00:02 [INFO] Schedule job finished.
+2012-04-25 00:00:02 [INFO] Schedule job started.
+2012-04-25 00:00:03 [INFO] Schedule job finished.
+2012-04-25 04:00:01 [INFO] Schedule job started.
+2012-04-25 04:00:08 [INFO] Schedule job finished.
+2012-04-25 08:00:01 [INFO] Schedule job started.
+2012-04-25 08:00:03 [INFO] Schedule job finished.
+2012-04-25 12:00:01 [INFO] Schedule job started.
+2012-04-25 12:00:02 [INFO] Schedule job finished.
+2012-04-25 16:00:01 [INFO] Schedule job started.
+2012-04-25 16:00:10 [INFO] Succeeded adding contest [214][2012-04-25 13:00:00][吉林工商学院第二届ACM程序设计竞赛].
+2012-04-25 16:00:10 [INFO] Schedule job finished.
+2012-04-25 20:00:01 [INFO] Schedule job started.
+2012-04-25 20:00:02 [INFO] Schedule job finished.
+2012-04-26 00:00:01 [INFO] Schedule job started.
+2012-04-26 00:00:05 [INFO] Succeeded adding contest [215][2012-05-01 21:00:00][May Challenge 2012].
+2012-04-26 00:00:05 [INFO] Schedule job finished.
+2012-04-26 04:00:01 [INFO] Schedule job started.
+2012-04-26 04:00:03 [INFO] Schedule job finished.
+2012-04-26 08:00:02 [INFO] Schedule job started.
+2012-04-26 08:00:03 [INFO] Schedule job finished.
+2012-04-26 12:00:02 [INFO] Schedule job started.
+2012-04-26 12:00:03 [INFO] Schedule job finished.
+2012-04-26 16:00:22 [INFO] Schedule job started.
+2012-04-26 16:00:24 [INFO] Schedule job finished.
+2012-04-26 20:01:04 [INFO] Schedule job started.
+2012-04-26 20:01:13 [INFO] Succeeded adding contest [216][2012-04-27 19:15:00][Croc Champ 2012 - Final].
+2012-04-26 20:01:21 [INFO] Succeeded adding contest [217][2012-04-27 21:15:00][Croc Champ 2012 - Final].
+2012-04-26 20:01:21 [INFO] Schedule job finished.
+2012-04-27 00:00:02 [INFO] Schedule job started.
+2012-04-27 00:00:03 [INFO] Schedule job finished.
+2012-04-27 04:00:01 [INFO] Schedule job started.
+2012-04-27 04:00:03 [INFO] Schedule job finished.
+2012-04-27 08:00:01 [INFO] Schedule job started.
+2012-04-27 08:00:02 [INFO] Schedule job finished.
+2012-04-27 12:00:02 [INFO] Schedule job started.
+2012-04-27 12:00:04 [INFO] Schedule job finished.
+2012-04-27 16:00:01 [INFO] Schedule job started.
+2012-04-27 16:00:05 [INFO] Succeeded adding contest [218][2012-04-27 20:00:00][第十届北京师范大学程序设计竞赛决赛前热身].
+2012-04-27 16:00:05 [INFO] Schedule job finished.
+2012-04-27 20:00:02 [INFO] Schedule job started.
+2012-04-27 20:00:04 [INFO] Schedule job finished.
+2012-04-28 00:00:02 [INFO] Schedule job started.
+2012-04-28 00:00:04 [INFO] Schedule job finished.
+2012-04-28 04:00:02 [INFO] Schedule job started.
+2012-04-28 04:00:03 [INFO] Schedule job finished.
+2012-04-28 08:00:01 [INFO] Schedule job started.
+2012-04-28 08:00:02 [INFO] Schedule job finished.
+2012-04-28 12:00:02 [INFO] Schedule job started.
+2012-04-28 12:00:11 [INFO] Succeeded adding contest [221][2012-04-29 12:00:00][东北多校新生练习赛8-SITE HRBEU].
+2012-04-28 12:00:11 [INFO] Succeeded adding contest [220][2012-05-05 12:00:00][“网宿科技杯”厦门大学第九届程序设计竞赛 网络预赛（2）].
+2012-04-28 12:00:11 [INFO] Schedule job finished.
+2012-04-28 16:00:02 [INFO] Schedule job started.
+2012-04-28 16:00:03 [INFO] Schedule job finished.
+2012-04-28 20:00:02 [INFO] Schedule job started.
+2012-04-28 20:00:03 [INFO] Schedule job finished.
+2012-04-29 00:00:01 [INFO] Schedule job started.
+2012-04-29 00:00:04 [INFO] Succeeded adding contest [224][2012-04-29 12:00:00][ECNU Extra Selective Trials Two For ZJNU Invitational].
+2012-04-29 00:00:04 [INFO] Succeeded adding contest [222][2012-05-04 23:30:00][Codeforces Round #118 (Div. 1)].
+2012-04-29 00:00:05 [INFO] Succeeded adding contest [223][2012-05-04 23:30:00][Codeforces Round #118 (Div. 2)].
+2012-04-29 00:00:05 [INFO] Schedule job finished.
+2012-04-29 04:00:01 [INFO] Schedule job started.
+2012-04-29 04:00:02 [INFO] Schedule job finished.
+2012-04-29 08:00:04 [INFO] Schedule job started.
+2012-04-29 08:00:05 [INFO] Schedule job finished.
+2012-04-29 12:00:04 [INFO] Schedule job started.
+2012-04-29 12:00:05 [INFO] Schedule job finished.
+2012-04-29 16:00:01 [INFO] Schedule job started.
+2012-04-29 16:00:02 [INFO] Schedule job finished.
+2012-04-29 20:00:01 [INFO] Schedule job started.
+2012-04-29 20:00:02 [INFO] Schedule job finished.
+2012-04-30 00:00:02 [INFO] Schedule job started.
+2012-04-30 00:00:03 [INFO] Schedule job finished.
+2012-04-30 04:00:03 [INFO] Schedule job started.
+2012-04-30 04:00:04 [INFO] Schedule job finished.
+2012-04-30 08:00:01 [INFO] Schedule job started.
+2012-04-30 08:00:07 [INFO] Schedule job finished.
+2012-04-30 12:00:01 [INFO] Schedule job started.
+2012-04-30 12:00:02 [INFO] Schedule job finished.
+2012-04-30 16:00:01 [INFO] Schedule job started.
+2012-04-30 16:00:02 [INFO] Schedule job finished.
+2012-04-30 20:00:03 [INFO] Schedule job started.
+2012-04-30 20:00:05 [INFO] Schedule job finished.
+2012-05-01 00:00:01 [INFO] Schedule job started.
+2012-05-01 00:00:02 [INFO] Schedule job finished.
+2012-05-01 04:00:01 [INFO] Schedule job started.
+2012-05-01 04:00:02 [INFO] Schedule job finished.
+2012-05-01 08:00:03 [INFO] Schedule job started.
+2012-05-01 08:00:04 [INFO] Schedule job finished.
+2012-05-01 12:00:02 [INFO] Schedule job started.
+2012-05-01 12:00:03 [INFO] Schedule job finished.
+2012-05-01 16:00:01 [INFO] Schedule job started.
+2012-05-01 16:00:06 [INFO] Schedule job finished.
+2012-05-01 20:00:02 [INFO] Schedule job started.
+2012-05-01 20:00:03 [INFO] Schedule job finished.
+2012-05-02 00:00:01 [INFO] Schedule job started.
+2012-05-02 00:00:03 [INFO] Schedule job finished.
+2012-05-02 04:00:02 [INFO] Schedule job started.
+2012-05-02 04:00:02 [INFO] Schedule job finished.
+2012-05-02 08:00:02 [INFO] Schedule job started.
+2012-05-02 08:00:03 [INFO] Schedule job finished.
+2012-05-02 12:00:01 [INFO] Schedule job started.
+2012-05-02 12:00:04 [INFO] Succeeded adding contest [225][2012-05-05 12:00:00][黑龙江省2012ACM春季培训].
+2012-05-02 12:00:04 [INFO] Schedule job finished.
+2012-05-02 16:00:01 [INFO] Schedule job started.
+2012-05-02 16:00:02 [INFO] Schedule job finished.
+2012-05-02 20:00:01 [INFO] Schedule job started.
+2012-05-02 20:00:03 [INFO] Schedule job finished.
+2012-05-03 00:00:02 [INFO] Schedule job started.
+2012-05-03 00:00:09 [INFO] Succeeded adding contest [226][2012-05-02 20:40:00][test].
+2012-05-03 00:00:10 [INFO] Succeeded adding contest [227][2012-05-02 21:20:00][SCOI2012 真题重现].
+2012-05-03 00:00:10 [INFO] Schedule job finished.
+2012-05-03 04:00:02 [INFO] Schedule job started.
+2012-05-03 04:00:09 [INFO] Schedule job finished.
+2012-05-03 08:00:02 [INFO] Schedule job started.
+2012-05-03 08:00:03 [INFO] Schedule job finished.
+2012-05-03 12:00:01 [INFO] Schedule job started.
+2012-05-03 12:00:06 [INFO] Succeeded adding contest [228][2012-05-05 12:30:00][The 10th UESTC Programming Contest Final (Public)].
+2012-05-03 12:00:06 [INFO] Schedule job finished.
+2012-05-03 16:00:01 [INFO] Schedule job started.
+2012-05-03 16:00:02 [INFO] Schedule job finished.
+2012-05-03 20:00:02 [INFO] Schedule job started.
+2012-05-03 20:00:03 [INFO] Schedule job finished.
+2012-05-04 00:00:01 [INFO] Schedule job started.
+2012-05-04 00:00:02 [INFO] Schedule job finished.
+2012-05-04 04:00:01 [INFO] Schedule job started.
+2012-05-04 04:00:02 [INFO] Schedule job finished.
+2012-05-04 08:00:02 [INFO] Schedule job started.
+2012-05-04 08:00:03 [INFO] Schedule job finished.
+2012-05-04 12:00:02 [INFO] Schedule job started.
+2012-05-04 12:00:03 [INFO] Succeeded adding contest [229][2012-05-06 12:30:00][首届成都信息工程学院程序设计竞赛热身赛第一场].
+2012-05-04 12:00:03 [INFO] Schedule job finished.
+2012-05-04 16:00:01 [INFO] Schedule job started.
+2012-05-04 16:00:08 [INFO] Succeeded adding contest [231][2012-05-04 11:30:00][test].
+2012-05-04 16:00:10 [INFO] Succeeded adding contest [230][2012-05-06 12:30:00][2012 UESTC ACM-ICPC Summer Training Team Selection (1)].
+2012-05-04 16:00:10 [INFO] Schedule job finished.
+2012-05-04 20:00:02 [INFO] Schedule job started.
+2012-05-04 20:00:03 [INFO] Schedule job finished.
+2012-05-05 00:00:01 [INFO] Schedule job started.
+2012-05-05 00:00:03 [INFO] Succeeded adding contest [233][2012-05-05 09:00:00][UESTC Training for Search Algorithm].
+2012-05-05 00:00:04 [INFO] Succeeded adding contest [232][2012-05-06 13:00:00][武科大计算机学院ACM暑期集训队选拔赛].
+2012-05-05 00:00:04 [INFO] Schedule job finished.
+2012-05-05 04:00:02 [INFO] Schedule job started.
+2012-05-05 04:00:04 [INFO] Succeeded adding contest [235][2012-05-10 23:30:00][Codeforces Round #119].
+2012-05-05 04:00:11 [INFO] Succeeded adding contest [234][2012-06-03 21:00:00][Colombian Collegiate Programming League 2012].
+2012-05-05 04:00:11 [INFO] Schedule job finished.
+2012-05-05 08:00:03 [INFO] Schedule job started.
+2012-05-05 08:00:04 [INFO] Succeeded adding contest [236][2012-05-20 23:30:00][Surprise Language Round #6].
+2012-05-05 08:00:04 [INFO] Schedule job finished.
+2012-05-05 12:00:02 [INFO] Schedule job started.
+2012-05-05 12:00:03 [INFO] Schedule job finished.
+2012-05-05 16:00:01 [INFO] Schedule job started.
+2012-05-05 16:00:02 [INFO] Schedule job finished.
+2012-05-05 20:00:03 [INFO] Schedule job started.
+2012-05-05 20:00:12 [INFO] Succeeded adding contest [237][2012-05-06 12:00:00][东北多校新生练习赛9-SITE DLUT].
+2012-05-05 20:00:12 [INFO] Schedule job finished.
+2012-05-06 00:00:01 [INFO] Schedule job started.
+2012-05-06 00:00:03 [INFO] Succeeded adding contest [238][2012-05-26 22:00:00][Online Round 2].
+2012-05-06 00:00:04 [INFO] Succeeded adding contest [239][2012-06-09 22:00:00][Online Round 3].
+2012-05-06 00:00:04 [INFO] Schedule job finished.
+2012-05-06 04:00:01 [INFO] Schedule job started.
+2012-05-06 04:00:02 [INFO] Schedule job finished.
+2012-05-06 08:00:03 [INFO] Schedule job started.
+2012-05-06 08:00:04 [INFO] Schedule job finished.
+2012-05-06 12:00:02 [INFO] Schedule job started.
+2012-05-06 12:00:03 [INFO] Schedule job finished.
+2012-05-06 16:00:02 [INFO] Schedule job started.
+2012-05-06 16:00:12 [INFO] Succeeded adding contest [240][2012-05-06 15:35:29][10CSD算法实验（6）].
+2012-05-06 16:00:12 [INFO] Schedule job finished.
+2012-05-06 20:00:02 [INFO] Schedule job started.
+2012-05-06 20:00:06 [INFO] Succeeded adding contest [241][2012-05-06 18:30:00][XTCPC WARM UP].
+2012-05-06 20:00:06 [INFO] Schedule job finished.
+2012-05-07 00:00:01 [INFO] Schedule job started.
+2012-05-07 00:00:03 [INFO] Succeeded adding contest [243][2012-05-06 22:30:00][XTCPC WARM UP].
+2012-05-07 00:00:04 [INFO] Succeeded adding contest [242][2012-05-13 12:00:00][“网宿科技杯”厦门大学第九届程序设计竞赛 现场决赛].
+2012-05-07 00:00:04 [INFO] Schedule job finished.
+2012-05-07 04:00:03 [INFO] Schedule job started.
+2012-05-07 04:00:04 [INFO] Succeeded adding contest [244][2012-06-03 00:00:00][Algorithm Round 2C].
+2012-05-07 04:00:06 [INFO] Succeeded adding contest [245][2012-06-07 23:00:00][SRM 545].
+2012-05-07 04:00:06 [INFO] Succeeded adding contest [246][2012-06-17 00:00:00][SRM 546].
+2012-05-07 04:00:07 [INFO] Succeeded adding contest [247][2012-06-24 00:00:00][Algorithm Round 3A].
+2012-05-07 04:00:07 [INFO] Succeeded adding contest [248][2012-06-26 09:00:00][SRM 547].
+2012-05-07 04:00:07 [INFO] Schedule job finished.
+2012-05-07 08:00:01 [INFO] Schedule job started.
+2012-05-07 08:00:02 [INFO] Schedule job finished.
+2012-05-07 12:00:01 [INFO] Schedule job started.
+2012-05-07 12:00:04 [INFO] Succeeded adding contest [249][2012-05-19 12:00:00][第八届浙江树人大学大学生程序设计竞赛(暨新人赛)].
+2012-05-07 12:00:04 [INFO] Schedule job finished.
+2012-05-07 16:00:01 [INFO] Schedule job started.
+2012-05-07 16:00:07 [INFO] Succeeded adding contest [250][2012-05-12 12:30:00][首届成都信息工程学院程序设计竞赛网络预选赛].
+2012-05-07 16:00:09 [INFO] Succeeded adding contest [253][2012-05-16 18:30:00][首届成都信息工程学院程序设计竞赛热身赛第二场].
+2012-05-07 16:00:10 [INFO] Succeeded adding contest [252][2012-05-19 09:30:00][首届成都信息工程学院程序设计竞赛现场热身赛].
+2012-05-07 16:00:11 [INFO] Succeeded adding contest [251][2012-05-19 12:30:00][首届成都信息工程学院程序设计竞赛现场决赛].
+2012-05-07 16:00:11 [INFO] Schedule job finished.
+2012-05-07 20:00:01 [INFO] Schedule job started.
+2012-05-07 20:00:04 [INFO] Succeeded adding contest [254][2012-05-12 14:00:00][HUNNU练习赛5].
+2012-05-07 20:00:04 [INFO] Schedule job finished.
+2012-05-08 00:00:01 [INFO] Schedule job started.
+2012-05-08 00:00:02 [INFO] Schedule job finished.
+2012-05-08 04:00:01 [INFO] Schedule job started.
+2012-05-08 04:00:02 [INFO] Schedule job finished.
+2012-05-08 08:00:01 [INFO] Schedule job started.
+2012-05-08 08:00:02 [INFO] Schedule job finished.
+2012-05-08 12:00:01 [INFO] Schedule job started.
+2012-05-08 12:00:02 [INFO] Schedule job finished.
+2012-05-08 16:00:02 [INFO] Schedule job started.
+2012-05-08 16:00:06 [INFO] Succeeded adding contest [255][2012-05-15 19:00:00][2012上半年ACM程序设计校选课考试].
+2012-05-08 16:00:06 [INFO] Schedule job finished.
+2012-05-08 20:00:01 [INFO] Schedule job started.
+2012-05-08 20:00:03 [INFO] Succeeded adding contest [256][2012-05-25 23:30:00][Surprise Language Round #6].
+2012-05-08 20:00:03 [INFO] Schedule job finished.
+2012-05-09 00:00:02 [INFO] Schedule job started.
+2012-05-09 00:00:03 [INFO] Schedule job finished.
+2012-05-09 04:00:02 [INFO] Schedule job started.
+2012-05-09 04:00:03 [INFO] Schedule job finished.
+2012-05-09 08:00:01 [INFO] Schedule job started.
+2012-05-09 08:00:02 [INFO] Schedule job finished.
+2012-05-09 12:00:01 [INFO] Schedule job started.
+2012-05-09 12:00:02 [INFO] Schedule job finished.
+2012-05-09 16:00:02 [INFO] Schedule job started.
+2012-05-09 16:00:03 [INFO] Schedule job finished.
+2012-05-09 20:00:01 [INFO] Schedule job started.
+2012-05-09 20:00:01 [INFO] Schedule job finished.
+2012-05-10 00:00:01 [INFO] Schedule job started.
+2012-05-10 00:00:02 [INFO] Schedule job finished.
+2012-05-10 04:00:01 [INFO] Schedule job started.
+2012-05-10 04:00:04 [INFO] Succeeded adding contest [257][2012-05-10 23:30:00][Codeforces Round #119 (Div. 1)].
+2012-05-10 04:00:04 [INFO] Succeeded adding contest [258][2012-05-10 23:30:00][Codeforces Round #119 (Div. 2)].
+2012-05-10 04:00:04 [INFO] Schedule job finished.
+2012-05-10 08:00:02 [INFO] Schedule job started.
+2012-05-10 08:00:03 [INFO] Schedule job finished.
+2012-05-10 12:00:01 [INFO] Schedule job started.
+2012-05-10 12:00:02 [INFO] Schedule job finished.
+2012-05-10 16:00:02 [INFO] Schedule job started.
+2012-05-10 16:00:05 [INFO] Succeeded adding contest [259][2012-05-12 14:00:00][TJU ACM/ICPC Team selection 2012 Round1A].
+2012-05-10 16:00:08 [INFO] Succeeded adding contest [260][2012-05-13 14:00:00][TJU ACM/ICPC Team selection 2012 Round1B].
+2012-05-10 16:00:08 [INFO] Schedule job finished.
+2012-05-10 20:00:37 [INFO] Schedule job started.
+2012-05-10 20:00:41 [INFO] Schedule job finished.
+2012-05-11 00:00:09 [INFO] Schedule job started.
+2012-05-11 00:00:11 [INFO] Schedule job finished.
+2012-05-11 04:00:02 [INFO] Schedule job started.
+2012-05-11 04:00:10 [INFO] Succeeded adding contest [261][2012-05-16 23:30:00][Codeforces Round #120 (Div. 2)].
+2012-05-11 04:00:10 [INFO] Schedule job finished.
+2012-05-11 08:00:01 [INFO] Schedule job started.
+2012-05-11 08:00:02 [INFO] Schedule job finished.
+2012-05-11 12:00:02 [INFO] Schedule job started.
+2012-05-11 12:00:06 [INFO] Succeeded adding contest [262][2012-05-12 13:00:00][NBUT2012校赛I(東方Project專題) 网络同步赛].
+2012-05-11 12:00:06 [INFO] Schedule job finished.
+2012-05-11 16:00:01 [INFO] Schedule job started.
+2012-05-11 16:00:03 [INFO] Succeeded adding contest [265][2012-05-11 12:00:00][test].
+2012-05-11 16:00:04 [INFO] Succeeded adding contest [263][2012-05-12 18:00:00][XTCPC WARM UP].
+2012-05-11 16:00:04 [INFO] Succeeded adding contest [264][2012-05-13 12:00:00][HIT 省赛练习赛].
+2012-05-11 16:00:04 [INFO] Schedule job finished.
+2012-05-11 20:00:02 [INFO] Schedule job started.
+2012-05-11 20:00:03 [INFO] Schedule job finished.
+2012-05-12 00:00:02 [INFO] Schedule job started.
+2012-05-12 00:00:04 [INFO] Schedule job finished.
+2012-05-12 04:00:03 [INFO] Schedule job started.
+2012-05-12 04:00:05 [INFO] Schedule job finished.
+2012-05-12 08:00:02 [INFO] Schedule job started.
+2012-05-12 08:00:14 [INFO] Schedule job finished.
+2012-05-12 12:00:02 [INFO] Schedule job started.
+2012-05-12 12:00:03 [INFO] Schedule job finished.
+2012-05-12 16:00:01 [INFO] Schedule job started.
+2012-05-12 16:00:12 [INFO] Succeeded adding contest [266][2012-05-12 12:45:00][首届成都信息工程学院程序设计竞赛网络预选赛].
+2012-05-12 16:00:12 [INFO] Schedule job finished.
+2012-05-12 20:00:03 [INFO] Schedule job started.
+2012-05-12 20:00:04 [INFO] Schedule job finished.
+2012-05-13 00:00:02 [INFO] Schedule job started.
+2012-05-13 00:00:03 [INFO] Succeeded adding contest [271][2012-05-12 22:30:00][XTCPC WARM UP].
+2012-05-13 00:00:04 [INFO] Succeeded adding contest [268][2012-05-13 10:00:00][“网宿科技杯”厦门大学第九届程序设计竞赛 现场热身赛].
+2012-05-13 00:00:05 [INFO] Succeeded adding contest [267][2012-05-13 12:00:00][东北多校新生练习赛10-SITE NENU].
+2012-05-13 00:00:06 [INFO] Succeeded adding contest [269][2012-05-13 13:00:00][[ALIBABA]].
+2012-05-13 00:00:06 [INFO] Succeeded adding contest [270][2012-05-13 13:00:00][寻找ALIBABA].
+2012-05-13 00:00:11 [INFO] Succeeded adding contest [272][2012-05-13 13:00:00][NJFU Programming Contest].
+2012-05-13 00:00:11 [INFO] Schedule job finished.
+2012-05-13 04:00:01 [INFO] Schedule job started.
+2012-05-13 04:00:03 [INFO] Succeeded adding contest [273][2012-05-13 12:00:00][南京林业大学“未来之星”第四届程序设计大赛].
+2012-05-13 04:00:05 [INFO] Succeeded adding contest [274][2012-05-26 12:00:00][计算机学院大学生程序设计竞赛（2012’05）(暑期集训队选拔赛)].
+2012-05-13 04:00:05 [INFO] Schedule job finished.
+2012-05-13 08:00:02 [INFO] Schedule job started.
+2012-05-13 08:00:03 [INFO] Schedule job finished.
+2012-05-13 12:00:01 [INFO] Schedule job started.
+2012-05-13 12:00:03 [INFO] Schedule job finished.
+2012-05-13 16:00:03 [INFO] Schedule job started.
+2012-05-13 16:00:04 [INFO] Schedule job finished.
+2012-05-13 20:00:02 [INFO] Schedule job started.
+2012-05-13 20:00:05 [INFO] Succeeded adding contest [277][2012-05-13 17:30:00][南京林业大学“未来之星”第四届程序设计大赛].
+2012-05-13 20:00:06 [INFO] Succeeded adding contest [278][2012-05-14 18:00:00][CSU Monthly 2012 May.(Semilive)].
+2012-05-13 20:00:07 [INFO] Succeeded adding contest [275][2012-05-26 14:00:00][HUNNU练习赛6].
+2012-05-13 20:00:08 [INFO] Succeeded adding contest [276][2012-06-02 14:00:00][HUNNU练习赛7].
+2012-05-13 20:00:08 [INFO] Schedule job finished.
