@@ -1,4 +1,4 @@
-#!/usr/bin/python2.6
+#!/usr/local/bin/python2.7
 # -*- coding: utf-8 -*-
 
 import gdata.calendar.data
@@ -9,6 +9,7 @@ import HTMLParser
 import string
 import sqlite3
 import json
+from datetime import datetime, timedelta
 import time
 import sys
 
@@ -79,31 +80,31 @@ class Calendar:
 
 	def format_time(self, tm):
 		"convert struct time to calendar time string"
-		return time.strftime('%Y-%m-%dT%H:%M:%S.000Z', tm)
+		return tm.strftime('%Y-%m-%dT%H:%M:%S.000Z')
+
+	def to_utctime(self, tm, tz):
+		"convert to utc+0000 time as if tm is in timezone tz"
+		return tm - timedelta(hours=tz)
 
 	def insert_single_event(self, title, content, where,
 			start_time = None, end_time = None,
 			tz = 0, length = 7200):
+		"tz: timezone offset in hour. length: in second."
 		event = gdata.calendar.data.CalendarEventEntry()
 		event.title = atom.data.Title(text = title)
 		event.content = atom.data.Content(text = content)
 		event.where.append(gdata.data.Where(value = where))
 
-		tz = -tz * 3600
-		# convert time_zone time to localtime
+		# convert timezone time to utctime
 		if start_time is None:
-			start_time = time.localtime()
+			start_time = datetime.utcnow()
 		else:
-			start_time = time.localtime(time.mktime(start_time) + time.timezone - tz)
+			start_time = self.to_utctime(start_time, tz)
 		if end_time is None:
-			end_time = time.localtime(time.mktime(start_time) + length)
+			end_time = start_time + timedelta(seconds=length)
 		else:
-			end_time = time.localtime(time.mktime(end_time) + time.timezone - tz)
+			end_time = self.to_utctime(end_time, tz)
 		
-		# convert localtime to gmtime
-		start_time = time.gmtime(time.mktime(start_time))
-		end_time = time.gmtime(time.mktime(end_time))
-
 		start_time_str = self.format_time(start_time)
 		end_time_str = self.format_time(end_time)
 		event.when.append(gdata.calendar.data.When(start=start_time_str, end=end_time_str))
@@ -113,7 +114,7 @@ class Calendar:
 		return new_event
 
 def logger(flag='DEBUG', msg=''):
-	stime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+	stime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 	print '%s [%s] %s' %(stime.encode('utf-8'), flag.encode('utf-8'), msg.encode('utf-8'))
 
 def grab_data():
@@ -142,26 +143,26 @@ def proceed(itemlst):
 	if itemlst is None:
 		return
 
-	cal = Calendar(r'wolf5xzh', r'gmail5705!#&')
+	cal = Calendar(r'wolf5xzh', r'gmail%&)%137')
 	dbc = Dao()
 
 	for item in itemlst:
 		_curs.execute('select status from ' + _tblname + ' where id=?', (item['id'],))
 		res = _curs.fetchall()
 
+		"flag: 0:do nothin; 1:add new; 2:modify"
 		flag = 0
 		if len(res) == 0:
 			flag = 1
 		elif res[0][0] != '1':
 			flag = 2
 
-
 		if flag != 0:
 			new_event = cal.insert_single_event(
-					title = item['name'],
+					title = '[%s] %s' %(item['oj'], item['name']),
 					content = 'access:[%s]' %(item['access']),
 					where = HTMLParser.HTMLParser().unescape(item['link']),
-					start_time = time.strptime(item['start_time'], '%Y-%m-%d %H:%M:%S'),
+					start_time = datetime.strptime(item['start_time'], '%Y-%m-%d %H:%M:%S'),
 					tz = 8)
 			item.setdefault('status',1)
 			if flag == 1:
