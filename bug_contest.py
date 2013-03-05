@@ -11,12 +11,14 @@ import sqlite3
 import json
 from datetime import datetime, timedelta
 import time
-import sys
+import sys, getopt
 
 _datsrc = r'http://contests.acmicpc.info/contests.json'
 _dbname = r'contests.db'
 _tblname = r'tbl_item'
 _curi = r'http://www.google.com/calendar/feeds/mh8mjnllutqs9m5eb2dbi921j4@group.calendar.google.com/private/full'
+_username = None
+_password = None
 
 _conn = sqlite3.connect(_dbname)
 _curs = _conn.cursor()
@@ -143,7 +145,7 @@ def proceed(itemlst):
 	if itemlst is None:
 		return
 
-	cal = Calendar(r'wolf5xzh', r'gmail%&)%137')
+	cal = Calendar(_username, _password)
 	dbc = Dao()
 
 	for item in itemlst:
@@ -172,9 +174,32 @@ def proceed(itemlst):
 
 			logger('INFO', 'Succeeded adding contest [%s][%s][%s].' %(item['id'], item['start_time'], item['name']))
 
-if __name__=='__main__':
+def help_and_exit():
+		print 'bug_contest.py -u <username> -p <password>'
+		sys.exit(2)
+
+def main(argv):
+	global _username, _password
+	"parse args"
+	try:
+		opts, args = getopt.getopt(argv, 'u:p:', ["username=","password="])
+	except getopt.GetoptError:
+		help_and_exit()
+	for opt, arg in opts:
+		if opt in ('-u', '--username'):
+			_username = arg
+		elif opt in ('-p', '--password'):
+			_password = arg
+	if _username == None or _password == None:
+		help_and_exit()
+	
+	"do job"
 	logger('INFO', 'Schedule job started.')
 	itemlst = grab_data()
 	proceed(itemlst)
 	logger('INFO', 'Schedule job finished.')
+
+
+if __name__=='__main__':
+	main(sys.argv[1:])
 
